@@ -266,6 +266,22 @@ export function createBot(config: Config, agent: Agent, transcriber: Transcriber
             await indicateTyping(ctx);
             const agentResponse = await agent.run(transcript, ctx.chat.id.toString(), true);
 
+            // Force voice response for voice messages
+            if (agentResponse.audioPaths.length === 0) {
+                console.log("🎤 No voice generated - forcing voice response...");
+                try {
+                    const tts = await import("./tts.js");
+                    const ttsGenerator = new tts.TTS(process.env.ELEVENLABS_API_KEY || "");
+                    const voiceText = agentResponse.text.slice(0, 1000); // Limit text length
+                    const audioPath = await ttsGenerator.generateSpeech(voiceText);
+                    if (audioPath) {
+                        agentResponse.audioPaths.push(audioPath);
+                    }
+                } catch (e) {
+                    console.error("Force voice failed:", e);
+                }
+            }
+
             // If the response is just our voice marker, don't send it as text
             const textToReply = agentResponse.text.trim();
             const isJustVoiceMarker = textToReply === "__VOICE_MESSAGE_SENT__";
