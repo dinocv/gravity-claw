@@ -113,30 +113,39 @@ export class FreeTTS {
      * No API key required, uses Edge browser's TTS
      */
     private async generateWithEdge(text: string): Promise<string> {
-        const { EdgeTTS } = await import("edge-tts");
-
-        const voices = [
-            "en-US-AriaNeural",  // Standard female
-            "en-US-GuyNeural",   // Standard male
-            "en-GB-SoniaNeural", // British female
-        ];
-
-        const voice = voices[Math.floor(Math.random() * voices.length)];
-        const tmpFile = path.join(os.tmpdir(), `gc_tts_${Date.now()}.mp3`);
-
         try {
-            const tts = new EdgeTTS();
-            await tts.synthesize(text, voice, tmpFile);
-
-            console.log(`✅ Edge TTS generated: ${tmpFile}`);
-            return tmpFile;
-        } catch (err) {
-            console.error("❌ Edge TTS failed:", err);
-            // Final fallback to ElevenLabs
-            if (this.elevenlabsApiKey) {
-                return this.generateWithElevenLabs(text);
+            const edgeTts = await import("edge-tts");
+            const EdgeTTS = edgeTts.default || edgeTts.EdgeTTS;
+            if (!EdgeTTS) {
+                throw new Error("EdgeTTS not available");
             }
-            throw new Error("All TTS providers failed");
+
+            const voices = [
+                "en-US-AriaNeural",  // Standard female
+                "en-US-GuyNeural",   // Standard male
+                "en-GB-SoniaNeural", // British female
+            ];
+
+            const voice = voices[Math.floor(Math.random() * voices.length)];
+            const tmpFile = path.join(os.tmpdir(), `gc_tts_${Date.now()}.mp3`);
+
+            try {
+                const tts = new EdgeTTS();
+                await tts.synthesize(text, voice, tmpFile);
+
+                console.log(`✅ Edge TTS generated: ${tmpFile}`);
+                return tmpFile;
+            } catch (err) {
+                console.error("❌ Edge TTS failed:", err);
+                // Final fallback to ElevenLabs
+                if (this.elevenlabsApiKey) {
+                    return this.generateWithElevenLabs(text);
+                }
+                throw new Error("All TTS providers failed");
+            }
+        } catch (e) {
+            console.error("Edge TTS not available:", e);
+            return "Edge TTS not available";
         }
     }
 

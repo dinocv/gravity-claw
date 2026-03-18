@@ -15,7 +15,6 @@
         "@supabase/supabase-js": "^2.97.0",
         "better-sqlite3": "^12.6.2",
         "dotenv": "^16.4.7",
-        "edge-tts": "^7.0.3",
         "googleapis": "^171.4.0",
         "grammy": "^1.35.0",
         "node-cron": "4.2.1",
