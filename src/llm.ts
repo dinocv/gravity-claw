@@ -486,7 +486,7 @@ export class LLM {
 
                 const data = await response.json() as any;
                 return {
-                    message: { role: "assistant", content: data.generated_text || data.choices?.[0]?.message?.content || "" },
+                    message: { role: "assistant", content: data.generated_text || data.choices?.[0]?.message?.content || "", refusal: null },
                     finishReason: data.choices?.[0]?.finish_reason || "stop"
                 };
             }

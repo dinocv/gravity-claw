@@ -129,7 +129,7 @@ Tone: ${tone}
 Include:
 1. HOOK (first 10 seconds) - Attention grabber
 2. INTRODUCTION (30 seconds) - Who this is for, what they'll learn
-3. MAIN CONTENT - ${template.mainPoints} key points with timestamps
+3. MAIN CONTENT - key points with timestamps
 4. CONCLUSION - Summary and CTA (subscribe, like, comment)
 
 Also provide:
@@ -298,7 +298,7 @@ export class YouTubeAnalytics {
     getTopVideos(metric: keyof YouTubeMetrics = "views", limit: number = 10): YouTubeVideo[] {
         return Array.from(this.videos.values())
             .filter(v => v.metrics)
-            .sort((a, b) => (b.metrics?.[metric] || 0) - (a.metrics?.[metric] || 0))
+            .sort((a, b) => (Number(b.metrics?.[metric]) || 0) - (Number(a.metrics?.[metric]) || 0))
             .slice(0, limit);
     }
 
