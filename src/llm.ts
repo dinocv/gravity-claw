@@ -169,21 +169,28 @@ export class LLM {
             console.log("✅ Added HuggingChat provider (free, no API key)");
         }
 
-        // Add OpenRouter as fallback (DISABLED - requires credits)
-        // if (this.config.openrouter.apiKey) {
-        //     this.providers.push({
-        //         type: "openrouter",
-        //         apiKey: this.config.openrouter.apiKey,
-        //         baseURL: "https://openrouter.ai/api/v1",
-        //         model: this.config.openrouter.model || "google/gemini-2.0-flash-001",
-        //         maxTokens: 2048,
-        //         thinking: true
-        //     });
-        //     console.log("✅ Added OpenRouter provider");
-        // }
+        // Add OpenRouter (routes to Google, Anthropic, etc.)
+        if (this.config.openrouter.apiKey) {
+            this.providers.push({
+                type: "openrouter",
+                apiKey: this.config.openrouter.apiKey,
+                baseURL: "https://openrouter.ai/api/v1",
+                model: this.config.openrouter.model || "google/gemini-2.0-flash-001",
+                maxTokens: 4096,
+            });
+            console.log("✅ Added OpenRouter provider");
+        }
 
         // Check for preferred provider order from PREFERRED_PROVIDERS env var
         const preferredOrder = process.env.PREFERRED_PROVIDERS?.split(",").map(p => p.trim().toLowerCase()) || [];
+
+        // If no preferred order, use openrouter as default (most reliable)
+        if (preferredOrder.length === 0) {
+            preferredOrder.push("openrouter", "google", "groq", "huggingchat");
+        }
+
+        console.log(`🔧 PREFERRED_PROVIDERS env: ${process.env.PREFERRED_PROVIDERS || 'not set'}`);
+        console.log(`🔧 Parsed provider order: ${preferredOrder.join(", ") || 'none'}`);
 
         if (preferredOrder.length > 0) {
             // Use the first available provider from the preferred list
