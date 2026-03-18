@@ -264,7 +264,13 @@ export function createBot(config: Config, agent: Agent, transcriber: Transcriber
             await ctx.reply(`🎤 *You said:*\n"${transcript}"`, { parse_mode: "Markdown" });
 
             await indicateTyping(ctx);
-            const agentResponse = await agent.run(transcript, ctx.chat.id.toString(), true);
+            let agentResponse = await agent.run(transcript, ctx.chat.id.toString(), true);
+
+            // Fallback if no response
+            if (!agentResponse.text || agentResponse.text === "(no response)" || agentResponse.text.trim() === "") {
+                console.log("⚠️ No agent response - using fallback");
+                agentResponse.text = "I heard you! Let me respond to that.";
+            }
 
             // Force voice response for voice messages
             if (agentResponse.audioPaths.length === 0) {
