@@ -29,7 +29,9 @@ export function createBot(config: Config, agent: Agent, transcriber: Transcriber
     // ── Security: User ID whitelist guard ──────────────────────────
     bot.use(async (ctx, next) => {
         const userId = ctx.from?.id;
+        console.log(`🔍 Message from user ID: ${userId}, allowed: ${allowedIds.has(userId || 0)}`);
         if (!userId || !allowedIds.has(userId)) {
+            console.log(`🔒 Blocking message from unauthorized user: ${userId}`);
             return; // silent drop
         }
         await next();
