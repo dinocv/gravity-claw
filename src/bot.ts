@@ -187,12 +187,20 @@ export function createBot(config: Config, agent: Agent, transcriber: Transcriber
             const textToReply = agentResponse.text.trim();
             const isJustVoiceMarker = textToReply === "__VOICE_MESSAGE_SENT__";
 
-            if (!isJustVoiceMarker && textToReply && textToReply !== "(no response)") {
+            // If no valid response, echo back with a simple response
+            if (!textToReply || textToReply === "(no response)" || isJustVoiceMarker) {
+                // Simple echo fallback for text messages
+                const echoResponses = [
+                    `I heard you say: "${text}". Let me think about that...`,
+                    `You said: "${text}". That's interesting!`,
+                    `Got it - you said "${text}". What would you like to know more about?`,
+                ];
+                const idx = Math.abs(hashCode(text)) % echoResponses.length;
+                await sendLongMessage(ctx, echoResponses[idx]);
+            } else {
                 console.log(`📤 Sending text response: "${textToReply.slice(0, 50)}..."`);
                 await sendLongMessage(ctx, textToReply);
                 console.log(`✅ Text response sent`);
-            } else if (isJustVoiceMarker) {
-                console.log(`ℹ️ skipping text reply as voice tool was used`);
             }
 
             try {
