@@ -24,6 +24,7 @@ export function createBot(config: Config, agent: Agent, transcriber: Transcriber
     // Global error handler
     bot.catch((err) => {
         console.error("❌ Telegram bot error:", err);
+        console.error("❌ Error stack:", err.stack);
     });
 
     // ── Security: User ID whitelist guard ──────────────────────────
