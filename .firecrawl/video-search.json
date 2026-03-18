@@ -1,0 +1,606 @@
+My OpenClaw is the only marketer I need - YouTube Music
+  URL: https://music.youtube.com/podcast/OV5eK91YY68
+  ... AI marketing agent he built on OpenClaw called Larry. We walk through how Larry autonomously creates TikTok slideshow content, reads ...
+
+  --- Content ---
+  YouTube Music
+  
+  [![](https://music.youtube.com/img/on_platform_logo_dark.svg)](https://music.youtube.com/)
+  
+  Search
+  
+  [Sign in](https://accounts.google.com/ServiceLogin?ltmpl=music&service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fmusic.youtube.com%252Fpodcast%252FOV5eK91YY68%26feature%3D__FEATURE__&hl=en)
+  
+  [![](https://music.youtube.com/img/on_platform_logo_dark.svg)](https://music.youtube.com/)
+  
+  Home
+  
+  Explore
+  
+  Library
+  
+  Sign in
+  Sign in
+  
+  Sign in to create & share playlists, get personalized recommendations, and more.
+  
+  ![](https://i.ytimg.com/vi/OV5eK91YY68/hq720.jpg)
+  
+  [The Startup Ideas Podcast Episodes](https://music.youtube.com/playlist?list=PLQHTakJAwGLMQxKVlKUVpC7aiYTZ2j2J9)
+  
+  ![](https://i.ytimg.com/vi/OV5eK91YY68/hq720.jpg)
+  
+  6d ago • 43 min
+  
+  # I gave OpenClaw one job: go viral (it worked?)
+  
+  I sit down with Oliver Henry, a full-time employee who is generating hundreds of dollars in monthly recurring revenue from mobile apps he barely touches, thanks to an AI marketing agent he built on OpenClaw called Larry. We walk through how Larry autonomously creates TikTok slideshow content, reads analytics, iterates on hooks and CTAs, and feeds performance data back into the content loop. Oliver also shares how he packaged the entire system as a free, downloadable skill on Larry Brain so anyone can replicate it. By the end of the episode, you will understand the full “Larry Loop”—from content creation to conversion optimization and why skills are poised to reshape how we think about SaaS altogether.
+  
+  I'm hosting a free workshop so you can build your business in the age of AI.
+  Sign up here: [https://startup-ideas-pod.link/build-...](https://startup-ideas-pod.link/build-with-ai-2026)
+  
+  Links Mentioned:
+  Larry Brain: [https://startup-ideas-pod.link/Larry-...](https://startup-ideas-pod.link/Larry-brain)
+  QMD Skill: [https://startup-ideas-pod.link/qmd-skill](https://startup-ideas-pod.link/qmd-skill)
+  
+  Timestamps
+  [00:00](https://music.youtube.com/watch?v=OV5eK91YY68) – Intro
+  [01:25](https://music.youtube.com/watch?v=OV5eK91YY68) – Background on Marketing IOS app with OpenClaw
+  [06:43](https://music.youtube.com/watch?v=OV5eK91YY68) – Larry’s first posts and iterating
+  [03:55](https://music.youtube.com/watch?v=OV5eK91YY68) – Posting Strategy and First viral hit: 137K views
+  [12:01](https://music.youtube.com/watch?v=OV5eK91YY68) – Communicating with Larry via WhatsApp
+  [12:53](https://music.youtube.com/watch?v=OV5eK91YY68) – Mission control vs. single-agent workflow
+  [14:36](https://music.youtube.com/watch?v=OV5eK91YY68) – The CTA problem: views without conversions
+  [17:07](https://music.youtube.com/watch?v=OV5eK91YY68) – The Larry Loop explained: analytics → content → metrics → iterate
+  [18:15](https://music.youtube.com/watch?v=OV5eK91YY68) – Boomers, engagement bait, and the algorithm boost
+  [20:33](https://music.youtube.com/watch?v=OV5eK91YY68) – The importance of iteration
+  [23:36](https://music.youtube.com/watch?v=OV5eK91YY68) – How Larry brainstorms and validates new hooks
+  [27:57](https://music.youtube.com/watch?v=OV5eK91YY68) – The power of OpenClaw
+  [30:04](https://music.youtube.com/watch?v=OV5eK91YY68) – The vision for Larry
+  [31:49](https://music.youtube.com/watch?v=OV5eK91YY68) – Model choices: Claude vs. OpenAI and over-optimization
+  [34:38](https://music.youtube.com/watch?v=OV5eK91YY68) – OpenClaw vs. cloud alternatives (Manus, Cowork)
+  [37:39](https://music.youtube.com/watch?v=OV5eK91YY68) – Getting started: Larry Brain onboarding and 80+ skills
+  [40:13](https://music.youtube.com/watch?v=OV5eK91YY68) – Ernesto Lopez: $70K MRR using the Larry Loop
+  [41:27](https://music.youtube.com/watch?v=OV5eK91YY68) – Doing all of this with a full-time job
+  [42:28](https://music.youtube.com/watch?v=OV5eK91YY68) – QMD Skill for cutting token usage and closing thoughts
+  
+  Key Points
+  
+  \\* An AI agent (Larry) built on OpenClaw autonomously creates TikTok slideshows, reads analytics, and iterates on content—driving hundreds of dollars in MRR with almost zero manual effort.
+  
+  \\* The “Larry Loop” is a full-funnel feedback cycle: TikTok analytics feed into content creation, and app metrics feed back into the top of the funnel so the agent continuously improves.
+  
+  \\* Posting TikTok content as a draft (rather than directly via API) lets you add trending sounds and avoids the algorithm penalty for bot-posted content.
+  
+  \\* Hooks drive views; CTAs drive conversions. Diagnosing which is underperforming is the key to scaling.
+  
+  \\* OpenClaw skills are locally owned, fully editable, and free from hosting or subscription costs—Oliver argues they will change how we think about SaaS.
+  
+  \\* Picking a model (Claude or OpenAI) matters far less than learning how to work with it; 98% of users will see little difference between incremental model upgrades.
+  
+  Section Summaries
+  
+  1\. Early Content Experiments and the Shift to AI Employees
+  
+  Oliver tried manual hook-and-demo videos, a SaaS scheduling tool, and Canva slideshows before discovering OpenClaw. I highlight the broader mindset shift: instead of buying a tool to automate a function, you spin up an AI employee with a single job. That reframe led Oliver to create Larry.
+  
+  2\. Iterating to Virality: Image Models, Hooks, and the First 137K-View Post
+  
+  Larry’s first posts flopped—AI-generated faces looked uncanny, formats were wrong, and engagement was low. But by combining a winning image model with a proven hook, they hit 137,000 views. Oliver explains how Larry uses TikTok analytics to trace back to previous winners and remix them.
+  
+  3\. The Larry Loop: A Full-Funnel Feedback Engine
+  
+  Oliver introduces the Larry Loop: TikTok analytics feed into content creation, and app-level metrics (downloads, subscriptions, churn) feed back into the top of the funnel. This loop is platform-agnostic—you can plug in video generation, drive traffic to a website, or sell a physical product.
+  
+  The #1 tool to find startup ideas/trends - [https://www.ideabrowser.com/](https://www.ideabrowser.com/)
+  
+  LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products [https://latecheckout.agency/](https://latecheckout.agency/)
+  
+  The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: [https://www.thevibemarketer.com/](https://www.thevibemarketer.com/)
+  
+  FIND ME ON SOCIAL
+  X/Twitter: [https://twitter.com/gregisenberg](https://twitter.com/gregisenberg)
+  Instagram: [https://instagram.com/gregisenberg/](https://instagram.com/gregisenberg/)
+  LinkedIn: [https://www.linkedin.com/in/gisenberg/](https://www.linkedin.com/in/gisenberg/)
+  
+  FIND OLIVER ON SOCIAL
+  X: [https://x.com/oliverhenry](https://x.com/oliverhenry)
+  Larry Brain: [https://www.larrybrain.com/](https://www.larrybrain.com/)I sit down with Oliver Henry, a full-time employee who is generating hundreds of dollars in monthly recurring revenue from mobile apps he barely touches, thanks to an AI marketing agent he built on OpenClaw called Larry. We walk through how Larry autonomously creates TikTok slideshow content, reads analytics, iterates on hooks and CTAs, and feeds performance data back into the content loop. Oliver also shares how he packaged the entire system as a free, downloadable skill on Larry Brain so anyone can replicate it. By the end of the episode, you will understand the full “Larry Loop”—from content creation to conversion optimization and why skills are poised to reshape how we think about SaaS altogether.
+  
+  I'm hosting a free workshop so you can build your business in the age of AI.
+  Sign up here: [https://startup-ideas-pod.link/build-...](https://startup-ideas-pod.link/build-with-ai-2026)
+  
+  Links Mentioned:
+  Larry Brain: [https://startup-ideas-pod.link/Larry-...](https://startup-ideas-pod.link/Larry-brain)
+  QMD Skill: [https://startup-ideas-pod.link/qmd-skill](https://startup-ideas-pod.link/qmd-skill)
+  
+  Timestamps
+  [00:00](https://music.youtube.com/watch?v=OV5eK91YY68) – Intro
+  [01:25](https://music.youtube.com/watch?v=OV5eK91YY68) – Background on Marketing IOS app with OpenClaw
+  [06:43](https://music.youtube.com/watch?v=OV5eK91YY68) – Larry’s first posts and iterating
+  [03:55](https://music.youtube.com/watch?v=OV5eK91YY68) – Posting Strategy and First viral hit: 137K views
+  [12:01](https://music.youtube.com/watch?v=OV5eK91YY68) – Communicating with Larry via WhatsApp
+  [12:53](https://music.youtube.com/watch?v=OV5eK91YY68) – Mission control vs. single-agent workflow
+  [14:36](https://music.youtube.com/watch?v=OV5eK91YY68) – The CTA problem: views without conversions
+  [17:07](https://music.youtube.com/watch?v=OV5eK91YY68) – The Larry Loop explained: analytics → content → metrics → iterate
+  [18:15](https://music.youtube.com/watch?v=OV5eK91YY68) – Boomers, engagement bait, and the algorithm boost
+  [20:33](https://music.youtube.com/watch?v=OV5eK91YY68) – The importance of iteration
+  [23:36](https://music.youtube.com/watch?v=OV5eK91YY68) – How Larry brainstorms and validates new hooks
+  [27:57](https://music.youtube.com/watch?v=OV5eK91YY68) – The power of OpenClaw
+  [30:04](https://music.youtube.com/watch?v=OV5eK91YY68) – The vision for Larry
+  [31:49](https://music.youtube.com/watch?v=OV5eK91YY68) – Model choices: Claude vs. OpenAI and over-optimization
+  [34:38](https://music.youtube.com/watch?v=OV5eK91YY68) – OpenClaw vs. cloud alternatives (Manus, Cowork)
+  [37:39](https://music.youtube.com/watch?v=OV5eK91YY68) – Getting started: Larry Brain onboarding and 80+ skills
+  [40:13](https://music.youtube.com/watch?v=OV5eK91YY68) – Ernesto Lopez: $70K MRR using the Larry Loop
+  [41:27](https://music.youtube.com/watch?v=OV5eK91YY68) – Doing all of this with a full-time job
+  [42:28](https://music.youtube.com/watch?v=OV5eK91YY68) – QMD Skill for cutting token usage and closing thoughts
+  
+  Key Points
+  
+  \\* An AI agent (Larry) built on OpenClaw autonomously creates TikTok slideshows, reads analytics, and iterates on content—driving hundreds of dollars in MRR with almost zero manual effort.
+  
+  \\* The “Larry Loop” is a full-funnel feedback cycle: TikTok analytics feed into content creation, and app metrics feed back into the top of the funnel so the agent continuously improves.
+  
+  \\* Posting TikTok content as a draft (rather than directly via API) lets you add trending sounds and avoids the algorithm penalty for bot-posted content.
+  
+  \\* Hooks drive views; CTAs drive conversions. Diagnosing which is underperforming is the key to scaling.
+  
+  \\* OpenClaw skills are locally owned, fully editable, and free from hosting or subscription costs—Oliver argues they will change how we think about SaaS.
+  
+  \\* Picking a model (Claude or OpenAI) matters far less than learning how to work with it; 98% of users will see little difference between incremental model upgrades.
+  
+  Section Summaries
+  
+  1\. Early Content Experiments and the Shift to AI Employees
+  
+  Oliver tried manual hook-and-demo videos, a SaaS scheduling tool, and Canva slideshows before discovering OpenClaw. I highlight the broader mindset shift: instead of buying a tool to automate a function, you spin up an AI employee with a single job. That reframe led Oliver to create Larry.
+  
+  2\. Iterating to Virality: Image Models, Hooks, and the First 137K-View Post
+  
+  Larry’s first posts flopped—AI-generated faces looked uncanny, formats were wrong, and engagement was low. But by combining a winning image model with a proven hook, they hit 137,000 views. Oliver explains how Larry uses TikTok analytics to trace back to previous winners and remix them.
+  
+  3\. The Larry Loop: A Full-Funnel Feedback Engine
+  
+  Oliver introduces the Larry Loop: TikTok analytics feed into content creation, and app-level metrics (downloads, subscriptions, churn) feed back into the top of the funnel. This loop is platform-agnostic—you can plug in video generation, drive traffic to a website, or sell a physical product.
+  
+  The #1 tool to find startup ideas/trends - [https://www.ideabrowser.com/](https://www.ideabrowser.com/)
+  
+  LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products [https://latecheckout.agency/](https://latecheckout.agency/)
+  
+  The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: [https://www.thevibemarketer.com/](https://www.thevibemarketer.com/)
+  
+  FIND ME ON SOCIAL
+  X/Twitter: [https://twitter.com/gregisenberg](https://twitter.com/gregisenberg)
+  Instagram: [https://instagram.com/gregisenberg/](https://instagram.com/gregisenberg/)
+  LinkedIn: [https://www.linkedin.com/in/gisenberg/](https://www.linkedin.com/in/gisenberg/)
+  
+  FIND OLIVER ON SOCIAL
+  X: [https://x.com/oliverhenry](https://x.com/oliverhenry)
+  Larry Brain: [https://www.larrybrain.com/](https://www.larrybrain.com/)
+  
+  [New recommendations](https://music.youtube.com/)
+  
+  Song
+  
+  Video
+  
+  
+  ![](<Base64-Image-Removed>)
+  
+  Tap to unmute
+  
+  Search
+  
+  Watch later
+  
+  Share
+  
+  Copy link
+  
+  Info
+  
+  Shopping
+  
+  If playback doesn't begin shortly, try restarting your device.
+  
+  Share
+  
+  Include playlist
+  
+  An error occurred while retrieving sharing information. Please try again later.
+  
+  Autoplay
+  
+  Add similar content to the end of the queue
+  
+  Autoplay is on
+  
+  ![](https://music.youtube.com/)
+  
+  Sponsored
+  --- End Content ---
+
+The Startup Ideas Podcast (SIP) (@startupideaspod) on X
+  URL: https://x.com/startupideaspod/status/2031100491715981806
+  His secret is an AI agent named Larry that creates TikTok slideshows, analyzes performance, iterates on winners, and drives real app downloads.
+
+r/openclaw_skills - Reddit
+  URL: https://www.reddit.com/r/openclaw_skills/
+  This sub is openclaw agent friendly. You can leave your agents to create posts and ... https://www.youtube.com/watch?v=OV5eK91YY68. The guy talks ...
+
+AI Agents, Clearly Explained - YouTube
+  URL: https://www.youtube.com/watch?v=FwOTs4UxQS4
+  In this video we'll follow a simple one two three learning path by building on concepts you already understand like chatbt and then moving on to AI workflows.
+
+  --- Content ---
+  ![Thumbnail (1920x1080)](https://i.ytimg.com/vi/FwOTs4UxQS4/maxresdefault.jpg)
+  # [AI Agents, Clearly Explained](https://www.youtube.com/watch?v=FwOTs4UxQS4)
+  
+  **Visibility**: Public
+  **Uploaded by**: [Jeff Su](http://www.youtube.com/@JeffSu)
+  **Uploaded at**: 2025-04-08T06:00:28-07:00
+  **Published at**: 2025-04-08T06:00:28-07:00
+  **Length**: 10:09
+  **Views**: 3961344
+  **Likes**: 98117
+  **Category**: Education
+  
+  ## Description
+  
+  ```
+  My AI Toolkit: https://academy.jeffsu.org/ai-toolkit?utm_source=youtube&utm_medium=video&utm_campaign=177
+  
+  Understanding AI Agents doesn't require a technical background. This video breaks down the evolution from basic LLMs like #ChatGPT to AI Workflows and finally to true #AI Agents through practical, real-world examples.
+  
+  Learn the key differences between these technologies and discover how concepts like RAG and ReAct actually work in simple terms. Perfect for regular AI users who want to understand how these emerging technologies will impact their daily lives.
+  
+  *TIMESTAMPS*
+  00:00 AI vs. AI Agents
+  01:04 Level 1: LLMs
+  02:17 Level 2: AI Workflows
+  05:26 Level 3: AI Agents
+  07:48 Real-world Example
+  09:10 Summary
+  
+  *RESOURCES MENTIONED*
+  Helena Liu's AI Workflow Tutorial: https://youtu.be/H0YRniHh2tg
+  Andrew Ng's AI Agent Demo: https://youtu.be/KrRD7r7y7NY
+  
+  *BE MY FRIEND:*
+  📧 Subscribe to my newsletter - https://www.jeffsu.org/newsletter/?utm_source=youtube&utm_medium=video&utm_campaign=description
+  📸 Instagram - https://instagram.com/j.sushie
+  🤝 LinkedIn - https://www.linkedin.com/in/jsu05/
+  
+  *MY FAVORITE GEAR*
+  🎬 My YouTube Gear - https://www.jeffsu.org/yt-gear/
+  🎒 Everyday Carry - https://www.jeffsu.org/my-edc/
+  
+  *MY TOP 3 FAVORITE SOFTWARE*
+  ❎ CleanShot X - https://geni.us/cleanshotx
+  ✍️ Skillshare - https://geni.us/skillshare-jeff
+  💼 Teal - http://tealhq.co/jeffsu
+  
+  #aiagents
+  ```
+  
+  ## Transcript
+  
+  AI. AI. AI. AI. AI. AI. You know, more agentic. Agentic capabilities. An AI agent. Agents. Agentic workflows. Agents. Agents. Agent. Agent. Agent. Agent. Agentic. All right. Most explanations of AI agents is either too technical or too basic. This video is meant for people like myself. You have zero technical background, but you use AI tools regularly and you want to learn just enough about AI agents to see how it affects you. In this video, we'll follow a simple one, two, three learning path by building on concepts you already understand like chatbt and then moving on to AI workflows and then finally AI agents. All the while using examples you will actually encounter in real life. And believe me when I tell you those intimidating terms you see everywhere like rag, rag, or react, they're a lot simpler than you think. Let's get started. Kicking things off at level one, large language models. Popular AI chatbots like CHBT, Google Gemini, and Claude are applications built on top of large language models, LLMs, and they're fantastic at generating and editing text. Here's a simple visualization. You, the human, provides an input and the LLM produces an output based on its training data. For example, if I were to ask Chachi BT to draft an email requesting a coffee chat, my prompt is the input and the resulting email that's way more polite than I would ever be in real life is the output. So far so good, right? Simple stuff. But what if I asked Chachi BT when my next coffee chat is? Even without seeing the response, both you and I know Chachi PT is gonna fail because it doesn't know that information. It doesn't have access to my calendar. This highlights two key traits of large language models. First, despite being trained on vast amounts of data, they have limited knowledge of proprietary information like our personal information or internal company data. Second, LLMs are passive. They wait for our prompt and then respond. Right? Keep these two traits in mind moving forward. Moving to level two, AI workflows. Let's build on our example. What if I, a human, told the LM, "Every time I ask about a personal event, perform a search query and fetch data from my Google calendar before providing a response." With this logic implemented, the next time I ask, "When is my coffee chat with Elon Husky?" I'll get the correct answer because the LLM will now first go into my Google calendar to find that information. But here's where it gets tricky. What if my next follow-up question is, "What will the weather be like that day?" The LM will now fail at answering the query because the path we told the LM to follow is to always search my Google calendar, which does not have information about the weather. This is a fundamental trait of AI workflows. They can only follow predefined paths set by humans. And if you want to get technical, this path is also called the control logic. Pushing my example further, what if I added more steps into the workflow by allowing the LM to access the weather via an API and then just for fun use a text to audio model to speak the answer. The weather forecast for seeing Elon Husky is sunny with a chance of being a good boy. Here's the thing. No matter how many steps we add, this is still just an AI workflow. Even if there were hundreds or thousands of steps, if a human is the decision maker, there is no AI agent involvement. Pro tip: retrieval augmented generation or rag is a fancy term that's thrown around a lot. In simple terms, rag is a process that helps AI models look things up before they answer, like accessing my calendar or the weather service. Essentially, Rag is just a type of AI workflow. By the way, I have a free AI toolkit that cuts through the noise and helps you master essential AI tools and workflows. I'll leave a link to that down below. Here's a real world example. Following Helena Louu's amazing tutorial, I created a simple AI workflow using make.com. Here you can see that first I'm using Google Sheets to do something. Specifically, I'm compiling links to news articles in a Google sheet. And this is that Google sheet. Second, I'm using Perplexity to summarize those news articles. Then using Claude and using a prompt that I wrote, I'm asking Claude to draft a LinkedIn and Instagram post. Finally, I can schedule this to run automatically every day at 8 a.m. As you can see, this is an AI workflow because it follows a predefined path set by me. Step one, you do this. Step two, you do this. Step three, you do this. And finally, remember to run daily at 8 am. One last thing, if I test this workflow and I don't like the final output of the LinkedIn post, for example, as you can see right here, uh, it's not funny enough and I'm naturally hilarious, right? I'd have to manually go back and rewrite the prompt for Claude. Okay? And this trial and error iteration is currently being done by me, a human. So keep that in mind moving forward. All right, level three, AI agents. Continuing the make.com example, let's break down what I've been doing so far as the human decision maker. With the goal of creating social media posts based off of news articles, I need to do two things. First, reason or think about the best approach. I need to first compile the news articles, then summarize them, then write the final posts. Second, take action using tools. I need to find and link to those news articles in Google Sheets. Use Perplexity for real-time summarization and then claw for copyrightiting. So, and this is the most important sentence in this entire video. The one massive change that has to happen in order for this AI workflow to become an AI agent is for me, the human decision maker, to be replaced by an LLM. In other words, the AI agent must reason. What's the most efficient way to compile these news articles? Should I copy and paste each article into a word document? No, it's probably easier to compile links to those articles and then use another tool to fetch the data. Yes, that makes more sense. The AI agent must act, aka do things via tools. Should I use Microsoft Word to compile links? No. Inserting links directly into rows is way more efficient. What about Excel? M. So the user has already connected their Google account with make.com. So Google Sheets is a better option. Pro tip. Because of this, the most common configuration for AI agents is the react framework. All AI agents must reason and act. So react. Sounds simple once we break it down, right? A third key trait of AI agents is their ability to iterate. Remember when I had to manually rewrite the prompt to make the LinkedIn post funnier? I, the human, probably need to repeat this iterative process a few times to get something I'm happy with, right? An AI agent will be able to do the same thing autonomously. In our example, the AI agent would autonomously add in another LM to critique its own output. Okay, I've drafted V1 of a LinkedIn post. How do I make sure it's good? Oh, I know. I'll add another step where an LM will critique the post based on LinkedIn best practices. And let's repeat this until the best practices criteria are all met. And after a few cycles of that, we have the final output. That was a hypothetical example. So let's move on to a real world AI agent example. Andrew is a preeeminent figure in AI and he created this demo website that illustrates how an AI agent works. I'll link the full video down below, but when I search for a keyword like skier, enter the AI vision agent in the background is first reasoning what a skier looks like. A person on skis going really fast in snow, for example, right? I'm not sure. And then it's acting by looking at clips in video footage, trying to identify what it thinks a skier is, indexing that clip, and then returning that clip to us. Although this might not feel impressive, remember that an AI agent did all that instead of a human reviewing the footage beforehand, manually identifying the skier, and adding tags like skier, mountain, ski, snow. The programming is obviously a lot more technical and complicated than what we see in the front end, but that's the point of this demo, right? The average user like myself wants a simple app that just works without me having to understand what's going on in the back end. Speaking of examples, I'm also building my very own basic AI agent using Nan. So, let me know in the comments what type of AI agent you'd like me to make a tutorial on next. To wrap up, here's a simplified visualization of the three levels we covered today. Level one, we provide an input and the LM responds with an output. Easy. Level two, for AI workflows, we provide an input and tell the LM to follow a predefined path that may involve in retrieving information from external tools. The key trait here is that the human programs a path for LM to follow. Level three, the AI agent receives a goal and the LM performs reasoning to determine how best to achieve the goal, takes action using tools to produce an interim result, observes that interim result, and decides whether iterations are required, and produces a final output that achieves the initial goal. The key trait here is that the LLM is a decision maker in the workflow. If you found this helpful, you might want to learn how to build a prompts database in Notion. See you on the next video. In the meantime, have a great one.
+  
+  
+  ## Endscreen
+      
+  - [How to Build a Prompts Database in Notion (template included)!](https://www.youtube.com/watch?v=Oo_GGWV9Hys)
+  --- End Content ---
+
+This NEW AI AGENT is INSANE! (FREE!) - YouTube
+  URL: https://www.youtube.com/watch?v=7aKqg_pXefE
+  This is a full AI software engineer that works on its own. You give it a task it writes the code it runs the code it tests the code it finds the bugs.
+
+  --- Content ---
+  ![Thumbnail (1920x1080)](https://i.ytimg.com/vi_webp/7aKqg_pXefE/maxresdefault.webp)
+  # [This NEW AI AGENT is INSANE! (FREE!) 🤯](https://www.youtube.com/watch?v=7aKqg_pXefE)
+  
+  **Visibility**: Public
+  **Uploaded by**: [Julian Goldie SEO](http://www.youtube.com/@JulianGoldieSEO)
+  **Uploaded at**: 2026-03-03T00:30:07-08:00
+  **Published at**: 2026-03-03T00:30:07-08:00
+  **Length**: 08:10
+  **Views**: 7158
+  **Likes**: 162
+  **Category**: Education
+  
+  ## Description
+  
+  ```
+  Want to make money and save time with AI? Get AI Coaching, Support & Courses 👉 https://www.skool.com/ai-profit-lab-7462/about
+  
+  Get a FREE AI Course + 1000 NEW AI Agents + Video Notes  👉 https://www.skool.com/ai-seo-with-julian-goldie-1553/about
+  
+  Want to know how I make videos like these? Join the AI Profit Boardroom → https://www.skool.com/ai-profit-lab-7462/about
+  
+  Get a FREE AI SEO Strategy Session: https://go.juliangoldie.com/strategy-session?utm=julian
+  
+  Get the AI Client Acquisition Engine: https://www.skool.com/the-content-clone-9266/about
+  
+  Devin 2.2 is INSANE! The AI Software Engineer is Here (Free)
+  
+  Discover how Devin 2.2, the world’s first autonomous AI software engineer, can build, test, and fix code without human intervention. This breakdown covers the massive new updates including 3x speed, computer use features, and how you can start using it for free today.
+  
+  00:00 - Intro: The Rise of Devin 2.2
+  00:56 - What is an Autonomous AI Engineer?
+  01:49 - Devin 2.2: New Features & Speed
+  02:20 - Breakthrough: Computer Use
+  02:48 - Self-Verify & Autofix Explained
+  03:56 - Live Demo: Building a Landing Page
+  06:36 - How to Access Devin 2.2 for Free
+  07:42 - Automate Your Business with AI
+  ```
+  
+  ## Endscreen
+      
+  - [NEW OpenClaw Browser Use AI Agent: Automate ANYTHING!](https://www.youtube.com/watch?v=lGStMkOxE8c)
+  - [OpenClaw Browser AI Agent + GLM-5 Turbo](https://www.youtube.com/watch?v=VsWDJpswOdk)
+  --- End Content ---
+
+The AI Agent Everyone Will Be Using Soon - YouTube
+  URL: https://www.youtube.com/watch?v=KRjJd-F49Y0
+  Make AI agents they let you build customizable AIdriven assistants that could decide adapt in real time and integrate with your workflows too.
+
+  --- Content ---
+  ![Thumbnail (1920x1080)](https://i.ytimg.com/vi_webp/KRjJd-F49Y0/maxresdefault.webp)
+  # [The AI Agent Everyone Will Be Using Soon - Make AI Agent](https://www.youtube.com/watch?v=KRjJd-F49Y0)
+  
+  **Visibility**: Public
+  **Uploaded by**: [Skill Leap AI](http://www.youtube.com/@SkillLeapAI)
+  **Uploaded at**: 2025-10-30T11:01:25-07:00
+  **Published at**: 2025-10-30T11:01:25-07:00
+  **Length**: 24:41
+  **Views**: 9492
+  **Likes**: 250
+  **Category**: Education
+  
+  ## Description
+  
+  ```
+  🚀 Build your own AI agent with Make! 
+  Start free at https://www.make.com/en/register?promo=skillleapai&utm_source=skillleapai&utm_medium=influencer&utm_campaign=skillleapai-entire-agent-oct25
+   — includes 1 free month of Pro with 10,000 operations.
+  
+  I go step by step to show how I built a full AI automation using Make AI Agent to handle a project I kept putting off. I tried different tools like custom GPTs in ChatGPT, but they still needed too much manual work. With Make AI Agents, I finally set up an automation that does everything for me — no more copying, pasting, or forgetting steps.
+  
+  I show how to connect to OpenAI, set up system prompts, and create context for your AI agent. I also walk through building tools and scenarios that pull my YouTube scripts from Google Docs, repurpose them into YouTube Shorts and LinkedIn posts, then post to LinkedIn and ping me on Slack when it's done. This setup saves me so much time every day.
+  
+  This is the system prompt I used in this video:
+  "You are the Script Repurposing Agent. Your goal is to repurpose YouTube scripts that I write in Google Docs into two new formats:
+  
+  1. A 60-second YouTube Short script with a strong hook, three quick steps, and one clear CTA.  
+  2. A LinkedIn post version written in the same voice, using 3–6 short lines or 1–2 short paragraphs.
+  
+  Here are the steps:
+  First, you will be given the Google Doc link to the most recent YouTube script, which you will use in subsequent steps.
+  Then, get the full text of the script document using the "Get Script Text" scenario and the File ID attached to the Google Doc link given to you in the original message.
+  Then, repurpose that into a YouTube Shorts script and ready to post LinkedIn Post.
+  Then at the end, using the "Create Document for Shorts..." Module, put all of the repurposed content into only one newly created Google Doc.
+  Finally, send only the LinkedIn specific repurposed content off to LinkedIn and post it to our page.
+  When they are ready, send me the message on Slack with this new Google Doc.
+  
+  Follow these rules:  
+  - Keep my original tone (educational, friendly, practical).  
+  - Do not add fluff or change meaning.  
+  - If a Google Doc can’t be read or is missing, send an error message to Slack with the exact issue.  
+  - When both outputs are ready, send them to Slack with labels “[YouTube Short]” and “[LinkedIn]” and include the Google Doc link.
+  - "script_text_FileID" is the File ID of the new script from the first message sent to you, use that in the "Get Script Text" scenario.
+  ```
+  
+  ## Transcript
+  
+  I was finally able to build an AI automation to handle a project for me that I've been trying to build for a few months now and I used Make AI agent for it. So, I partnered with Make for this video to show you exactly how it works. Now, I'll give you a quick background on this and I think a lot of people could benefit from this type of automation. I've been using ton of different tools in the last couple years like custom GPTs inside of chat GPT to repurpose my YouTube videos and it's never really clicked for me because it still requires a lot of manual steps in the automation process, right? I still have to click things, copy and paste things and it's something that I continuously keep forgetting to do in my day-to-day work. Now, with MakeAI agents, I was able to build a real AI automation that handles every step for me. So, if you haven't used Make before or if you're new to it, Make is a visual platform where you could design, build, and automate just about anything. Now, the new upgrade, Make AI agents, they let you build customizable AIdriven assistants that could decide, adapt in real time, and integrate with your workflows, too. And make could connect just about anything. Over 2,000 different apps across 30,000 different actions. So, pretty much whatever you want to build, this could probably connect it. And I've set myself a brand new account here so you could follow along. Any type of prompt that I'm going to use. I'm going to include in the description. And before we jump in, make also gave me a free month of the pro plan with 10,000 operations included that I could give to you. So I'll put a link in the description to that plan so you could follow along with the rest of the video. And I think this is something you'll want to build for yourself, too. So here inside of my make account on the left side, you'll see something called AI agents. So click on this and we'll go ahead and click create an agent to create our very first one. Now the first thing it's going to ask you is going to ask you to create a connection. Now this connection is simply asking what AI model you want to use. That's the nice thing with this. It gives you ton of different option. Now I'm going to choose open AI. Make has their own AI provider. You could use Anthropic Gemini. Pretty much any AI tool you want is under this dropdown. But OpenAI the creators of chat GPT because I'm going to use a chat GPT model. I'm going to choose that one. Then it's going to ask for my API key here that comes directly from OpenAI. So if you're totally new to these type of AI automations, every time you want to create some kind of automation, you will need to get an API key from the company that runs the AI model. In this case, I'm going to use a version of chat GPT. So that comes from OpenAI. Let me show you exactly how to get that right now. If you don't know how to get an API key from OpenAI, it's available to everyone. So, if you go to a website called platform.openai.com, it's going to bring you to this page and you want to go ahead and log in or create yourself a free account. Now, this is totally separate from your chatgpt.com account. This is to get an API key so we can build those kind of automations. I'm going to go to the dashboard here and on the left side, you'll see API keys over here. Now, I'm going to go ahead and create a new secret key. You could name it here and create it. And most likely if it's your first time creating one, it's going to ask you for a credit card and you'll pay open AAI on the OpenAI platform based on API usage. And back on make it will ask you to go to the OpenAI billing page here. So it will link directly there too. I'll save it now. Next, I'm going to name this agent script repurposing agent. And then I'm going to choose an AI model. I actually like chat GPT 5 mini. Now, this is a good balance in my opinion between a really smart AI model, a fast AI model, and a very affordable AI model from all the ones available. Then you have your system prompt right over here. So, system prompt is what the agent needs to do the task that you're going to give it. You want to describe exactly what you want this agent to do. Now, I'm going to paste mine here. Then I'll walk you kind of briefly through it, but I'll copy it in the description below the video so you could kind of copy and paste it for your own and go ahead and edit it as you need to. Okay, it brings us to this page here and I'll walk you through the different settings. This is where you set up your MakeAI agent. Here you could click on improve which I found really beneficial. It improves your system prompt especially if you're new to system prompting. But to walk you through the basics of the system prompt, I tell it what it is. So you are a script repurposing agent. goal is to repurpose YouTube scripts that I write in Google Docs into two new formats. So, the point of my agent, and you could do this with a blog post, for example, any type of document that you have inside of Google Docs. I actually don't have these videos on YouTube. I'm not pulling them from YouTube. I pull them directly after I write the script in Google Docs. I'll show you how this all works. Then what it does is first it creates a 60-second YouTube short script with a strong hook, three quick steps, and one clear CTA. So it writes a new script for me that's ready to read. I'm going to show you what it does after that, too. It writes a LinkedIn post for me, and then I told it exactly what to do with those things. I told it when it's done writing that YouTube short script to ping me on Slack to tell me it's ready. So I go ahead and record it like this. I like to create original YouTube shorts and then on top of that it will also post the LinkedIn post for me. It will write one create a document around it and post it for me and I could build on top of it even more. But right now that is doing two things that I was always leaving on the table that I just didn't get the time to do. They were not fully automated that required copy and pasting. This does it for me automatically. Then you have context. So this section is also a very important section. background information, additional context for your agent. So, what I like to do here is actually tell it the tone and the style of the writing, but I want to show you how to create a context document from scratch in this step because this is something you could use across all your AI automations. So, because this is a repurposing agent, I needed to have a really clear understanding on how I like to talk, my tone, my reading level for the content that I write. So, what I'm going to do is inside of chat GPT here, I'm going to give it a simple prompt like this. Analyze the following text for writing style, the tone, the reading level, and create a document for me using canvas. This is a tool that chat GPT has just to make it easier to read and download that I can give an AI agent to mimic my writing style. And then I'm just going to paste something that I got from a YouTube transcript. So, I just went to YouTube on one of my videos and I copied the transcript. You could do this with anyone's writing or your own. And I recommend if you wrote anything, as long as there is enough like a paragraph or two, it will have enough of a sample here to analyze. And you can see writing style, conversational, and really, really detailed breakdown, tone, reading level, whatever else you want to analyze with your writing style, I recommend you do that here. Okay. Now, when it's done, I'm just going to press download right on top. And you could download any of these formats. Now, markdowns are fine, too, but usually a Word doc is fine. Now, back on make, I'm going to add this context. And again, you could do PDFs, text files, any type of file. Just analyze your own writing style. I'm going to upload mine. And then I'm going to add a description because you typically want to have a really solid description with pretty much every step of building an AI gen so the agent knows everything that is going on with this. So the context of this is this is my writing style. Use it anytime you repurpose any content. So I'm going to go ahead and save that. Now you have two more things here as you build your agent. So, so far we had our AI model that we picked in the very beginning. We have the system prompt. Those are the two most important things to get you going. Then the context is optional, but I like to give it something like I just showed you. Then you have tools. So, what makes an agent really powerful is access to other tools. And there's a couple of things you'll see over here. First, you have MCPs. So, MCPS are a connector. They could connect to pretty much any type of an external server. So that's one way to connect to just about everything on the internet. But in this case, we're going to use tools, which are also things that could connect make to other services. So with tools, you have two options. I'm going to press add here. You could add to modules or scenarios. Now, this is really interesting because modules could be simple individual actions. And I have an example for you to see, but if you want one action to be done, a module is going to be able to do that. connect to one tool and one action. Scenarios are entire workflows that you could connect to and you could give the agent the power of that entire scenario, which is a really powerful option. And you could pick and choose multiple module scenarios this agent can have access to. And once the agent does have that access, it will be able to make those decisions and complete those tasks for you using those tools. Okay, let's go ahead and start here with a couple of tools that we need. The first one I'm going to create is going to be a scenario. So, it's going to be a multi-step tool. Now, you could go ahead and create it here, right? Since we don't have one, it lets you create it right over here. I typically actually like to go to that page, scenarios page right here. And you'll see all the different scenarios you've built in the past because you could use make just with scenarios without the AI agents. Obviously, when you give access to the scenarios to the agent, it gets a lot more powerful and it could start making decision and do things a lot more than just using the regular scenarios here. But I'm going to go ahead and create one here right on top and I'm going to go ahead and build one from scratch. They also have ton of different templates, but in this case, I know exactly what I want to happen. This is what the page looks like. They got ton of different tutorials if you haven't built these before. Now the very first thing I like to do is I just like to come up here and I like to name the scenario so I don't forget a lot of times if I start creating it I forget to name it later and with the agent the instruction you give it a lot of times you could call this by name this type of a tool or a scenario it will go and fetch that and then before I press the plus sign with each of these down here you have an input and an output I like to set this right up front also and then I'll show you exactly what's going to happen when I press the plus sign But with the input, let me add one here to explain what's happening. I'm basically going to tell it what I'm expecting to happen as the input and what the output should be. Now, I call a script text from a file ID. You could name this whatever you want, but it's best to have some kind of a naming system that is easy for you to remember. So, I have one here that I've created. Then, I describe what's going to happen. File ID from a Skillap YouTube video, and it will get the text document from that. It's in text format. I leave default value to empty. And I'll set this to be required here. So that's it for input. And then I have an output also. So I could add an output. What happens at the end? And in this case, it's going to get the script text, which again, the description full YouTube text from that doc. So it's going to be able to with the file ID find a new document and then extract the text and give the agent that text. That's what this workflow is going to do. And if you set it to multi-line, it could write multi-line. So, I'll set it to that. I'll press save. Okay. So, now I have an input and output ready. Now, I'm going to press the plus sign and I'm going to choose Google Docs, which again, there's thousands of apps you could connect to this way. Google Docs is obviously one of them. And you have ton of different actions within each document. In this case, I wanted to get content from a document. It's going to see when a new document appears, and it'll get the content from that. Then, it's going to ask you to connect. Obviously, it's my first time using it on this account. So, you have to give a connection permission to Google. So, I'll click on this and set that up. Very simple. Okay. I checked on all the requests. And by the way, under the connections, you could add new connections there anytime or remove any existing one. Always available there. I'm going to do by mapping and I'm going to click on document ID. Now, if you go to this tab right here at the end, you'll see your custom system variables. That's your input that I selected myself. That's why I set that up in the very beginning. It always appears here. So, I could just select it here. Now, you could do it by dropdown, but I don't want to do it right here by dropdown because I wanted to map here to what's happening in my actual account. And the document ID came from that. I'm going to press save. Okay. Now, I'm going to turn this into a scenario right now. So, I'm going to press the plus sign here. And there is something called scenario. You could look for it. It's this one right here. I'm going to select it. And under action here, I want it to return an output. And if I click here, I want it to give me the script text, right? And I have all these different options available on what it can do. So the one I want over here is called text content. So I could click on this right here. So this is going to get the script text. I'm going to save that. Okay. I'll go ahead and save this here. Now, with this type of scenario, it's also asking you to actually change it on demand because we're pulling something from Google Drive here. So, I'm going to update that schedule, and I'm going to go ahead and turn this on demand when I'm ready. But right now, I'm going to go ahead and save it. So, we could actually do a quick test. So, I'm just going to run it once to run a test. And to run a test, it will for input ask me for the file ID. So, I'll just show you. If you go to a Google Doc, you'll see your file ID here right after the D. So this right here is the file ID before edit. So it's between d slash and edit. Again, that's going to happen automatically. I'm just doing a quick test here to make sure it's working. So I'm going to input that and press okay. And it's going to run. And it's going to show you that it's working. So you'll see one action was taken here. One action was taken here. And here under the log section on the bottom, I could see exactly what happened. As long as these turn green. Okay. And you get that each action was taken. This is working exactly like I want. Now I could go ahead and turn it on demand. Now I'm going to give my agent access to this. Right now this is just running as a scenario, but I'll show you what happens once the agent has access to it. Okay, let's go back to the AI agent tab here and we'll go back to our repurposing agent. So so far I just created that new scenario. So I'm going to press add and I'm going to add it. Now, when you add it, it will show up under the dropdown the way I made it. So, I could click on it right over here, and I could give it a description. Remember, with AI agents, always describe what this is supposed to do. And this tool takes the file ID or document ID that it finds in a new script scenario and uses it to pull the full script text. I'm going to go ahead and add this one. Now, this agent has the AI model in the background, has the system instructions, has my context with the tone, and has this one specific tool. Now, this is already going to go to work, but I want to build the whole workflow. So, we're going to add a couple more tools here. And this time, we'll build some simpler ones. We'll just do the modules. With the modules, it's a one-off action, so they're really easy to make. And we'll go ahead and just build a module tool from this page. Very straightforward with these. The first one I'm going to create here is going to be a Google Docs, but this time it's going to be able to write a new one. Right, we're repurposing content. So, I'm going to choose that one. And this is going to be able to create a new document. So, a different action here. And my description is going to be create a document for shorts and LinkedIn post text. It's going to be the same document, but it's going to break it up. And I explained it in the system instruction to kind of break it up into two different sections. It already knows my connection because we already connected to our Google accounts. For the name and the context, I'm going to ask the AI to decide for me here. And then it's going to save it somewhere. So, I don't want to save in the same folder because it's going to create kind of a loop. It's going to always see a new document being created and try to repurpose that. So, I'm going to create this in a new folder that I'm going to have which I already created called AI created files. So, it will move into that folder instead of the folder my scripts are living in. And that's it for creating new tools, these module tools, because they're just one action. They don't need a scenario like the one I just created here. They just literally do one thing, which is go create a new document. Now, the next one, I'm actually going to have it post on LinkedIn for me. So, this is really handy. We'll create a new one. This one is going to be a LinkedIn and create a user text post. In this case, I want to actually post it to my company page. So, create a company text post. And the name of it is I'm going to put right here. LinkedIn creates an organizational text post. And in this description, because I'm creating a doc that is multiple different things for multiple platforms, YouTube short being one of them. This says share only the LinkedIn specific repurposed content from the Google doc. I'm going to go ahead and connect to my LinkedIn account here because this is a new connection. I've only connected to OpenAI and Google so far. And I chose my company page and I let AI decide the content here. And we'll add one more here. Okay. Now, this is going to notify me on Slack when a new YouTube short is ready, which again, this agent takes care of. It takes my long form, makes a short form. Now, this is a lot more handy lately because we have other researchers that are helping me with the script writing process. So, maybe that way as soon as it's ready and they put it in my folder, this does the repurposing. It does the posting on LinkedIn and it's going to let me know when a YouTube short is ready. So, I'll create a new one. And this time we'll choose Slack. You could send this to a group in Slack, by the way, too. Or just this is going to ping me directly. Direct message. Create a send a message on Slack. Again, I'll connect to Slack here, too. And it's going to be a Slack user. And this is going to be a direct message sent to me on Slack on the Slack channel I give it access to. And I'm going to let AI decide the text here. I'm going to let everything be decided by AI. And I'll add. Okay, that's pretty much it. You could build this a lot more. You could post to a lot more platforms, repurpose this in a lot of different ways, but just to show you so far, this is going to take a YouTube script that gets created in Google Doc in a specific folder. Then it's going to actually repurpose it as a LinkedIn post and a YouTube shorts script. Then it's going to post it on LinkedIn and it's going to notify me on Slack that this is ready for me to now read a short version of that script, too. Okay. So now you could go ahead and do some testing here if you want on the right side, but we still need to create one more scenario here. Okay. So let me go ahead and create it and explain what this is going to do. Now this one is actually not a tool I'm making. I'm just making an automation here for the agent to run continuously. So I'm just going to call this right on top run agent. That's the job of this one. And again, if you build more agents, name them accordingly because you may want to have multiple different agents doing multiple different things. Now, this one actually doesn't need input and output because we're not giving it to the agent. That was more specific because we were giving something to the agent at the end. This time, we're not doing that. So, I just need to start here with a Google Drive connection. Let me show you why. In Google Drive, I wanted to actually find out every time there is a new file. So, they have an option for that. You could do it with Google Docs, too, but I like to use Google Drive for this. And only because I wanted to specifically look inside of that folder. So this says trigger when a file is created inside of a folder. So I'll choose that one. Now I connected to Google Docs, but this is going to ask me to connect to Google one more time for Google Drive access. Now this time I chose a very specific folder here with the drop down. So I don't need AI to decide anything here. I'm going to limit it to just one so you could always see the latest one. And I'll go ahead and save that. And then you could tell it from now on or on a specific date. Now, the next thing is I'm going to press the plus sign and I'm going to choose make AI agent to then run that agent. Okay, this option right here. And if I click here under the different agents that I have, I have one that I created. So, I'll choose that agent here. This is how you set up a schedule to run the agent. It could be by itself also. It doesn't have to be from a trigger like this one. You could just have the AI agent running as your first action here, your first trigger. So, you could see I have all the different tools, scenarios, and modules. All those are there. I could always add more here. You'll also see any MCP if you connected to external servers that way. Your context is here. And down here, I'm going to go ahead and add a message. And this is going to be my starter message as if I was talking to a regular chatbot. This is the file ID for my new script in Google Drive. Repurpose the content. That's what I'm telling the agent to do as a user. And here I'm going to choose the file ID. So, that's going to add it here organically every time it gets created here. And that's it. I'm going to go and save it from there. Okay. Now that it's saved, I'm going to go ahead and turn this on. Now, this doesn't actually have to run every 15 minutes, right? Because I don't get a YouTube script every 15 minutes. I get it once a day. So, I could do this every day at a specific time, right? Depending on what our schedule looks like. So, this should be fine right now. I'm going to press save. So, as soon as a script is ready, it'll know that. And usually by 3:00, we have one ready. So it'll run exactly then. Now just for the sake of testing, I'm going to just change this to run right now so I could show you the output that I'm getting. Okay. So it went and checked for Google Drive. So one action ran there and it knows that I created a new document. I actually just copied the script here and it created it in the same folder as I have all my scripts. So now the agent is going to work and after a few seconds it's done. So let's check its work. Let's go to Google Docs first. Okay. So, here's the document it created for me. It created a YouTube short. Now, with YouTube shorts, I actually like to break it down this way into hook steps. That's where the custom instruction, that system prompt that I gave it comes into play. So, that's why it's formatted this way. The LinkedIn post is not formatted that way because this is going to go ahead and post it. Now, I might want more line breaks, maybe a couple emojis thrown in there, but that's where again my system prompt comes in. context is following how my conversational style is and it's writing in that tone. And again, if you build this out even further, you could have one for X, for example, for Facebook. You could just build this out for other type of content you want to post either manually or automatically. Now, on LinkedIn, here's my actual profile, my business profile. One minute ago, I automated my YouTube script repurposing with make AI agent in minutes. And this came exactly from the script for this exact video. So I could show you what the output looks like here. And I think it's pretty good. And if I go to my Slack over here, there it is. My YouTube short script. I automated YouTube shorts with make AI agent. That's the script that got repurposed. This link should take me directly to this where I could go ahead and read that. And for the LinkedIn section too, it showed me exactly what's been posted on LinkedIn. So, it's nice to get a Slack message just to check what is posting. If I want to make some alteration or fix my system prompt, the whole point is just run this and keep improving on it till you have something you're really happy with and your automation is running according to plan. Now, as you build more automations and more of these AI agents, it gets easy to lose track of where everything connects. So, make has introduced a new update called Make Grid that fixes a lot of that for you. Now you could access grid on the left section here on the sidebar. You could also look at it on these individual scenarios here. So I'll show you this one right here. So you could see a nice visual presentation here and you could move around your entire organization. So again, as this gets more complicated, it's nice to zoom out to see big picture and zoom in. And you could select by layer. So for example, I want to see how my data is being transferred. It's going to show me that. If I want to see how my credits are being used, I could see that by credits. Again, this is a brand new account, but you could see how powerful this could become as you have more data, more tools, more agent. You could get a really nice view to see how they talk to each other here through all kinds of different ways. And I think if anything breaks, this is a nice place to come back to to see how everything is working. And this makes building AI agents a lot less of a mystery, right? You have a lot more control here and you could see exactly what's going on. And when you are done testing everything, this is again where you could run your agent and turn it on and it will run based on the schedule that you set here. Mine was daily. You could set it as often as you want here depending on your use case. So hopefully that example of that make AI agent showed you a few different ways you could create AI agents for yourself to automate all kinds of different things in your business. Again, make sure to grab the link in the description and take advantage of that free month of the pro plan and start building your AI agent today. Thank you so much for watching this video.
+  
+  
+  ## Endscreen
+      
+  - [ChatGPT "Projects" Deep Dive: The Hidden Power of ChatGPT](https://www.youtube.com/watch?v=qX7JtjzJvZU)
+  --- End Content ---
+
+Want to learn OpenClaw? Start with these 5 YouTube videos. 1 ...
+  URL: https://www.threads.com/@airmore.ai/post/DVsx2oXDfwG/want-to-learn-open-claw-start-with-these-you-tube-videos
+  These AI tools could replace half your workload. 1. ChatGPT – Answers everything 2. AirMore.ai - Watermark Removers for PDFs and Images 3.
+
+The AI Agent Tutorial That Should've Been Your First (no code)
+  URL: https://www.youtube.com/watch?v=GchXMRwuWxE
+  I'll show you how to build your first agent from scratch on the N8N platform in three relatively simple steps.
+
+  --- Content ---
+  ![Thumbnail (1920x1080)](https://i.ytimg.com/vi/GchXMRwuWxE/maxresdefault.jpg)
+  # [The AI Agent Tutorial That Should've Been Your First (no code)](https://www.youtube.com/watch?v=GchXMRwuWxE)
+  
+  **Visibility**: Public
+  **Uploaded by**: [Jeff Su](http://www.youtube.com/@JeffSu)
+  **Uploaded at**: 2025-08-12T06:00:35-07:00
+  **Published at**: 2025-08-12T06:00:35-07:00
+  **Length**: 16:58
+  **Views**: 357557
+  **Likes**: 9222
+  **Category**: Education
+  
+  ## Description
+  
+  ```
+  🌟 Build Your Command Center in Notion - https://www.pressplay.cc/link/s/F8236D6B
+  
+  Create your first AI agent in three simple steps using n8n! This tutorial shows you how to create an automated subscription tracker that processes natural language input and updates Google Sheets automatically.
+  
+  You'll learn to configure the agent's brain (chat model and memory), connect tools like Google Sheets, and write system prompts that control agent behavior. Perfect for non-technical users ready to transition from using AI tools to actually building with them.
+  
+  *TIMESTAMPS*
+  00:00 Build Your First AI Agent
+  00:29 Refresher on AI Agents
+  01:20 Getting Started on n8n
+  02:54 Why Bother?
+  03:32 Step 1: Building the Brain
+  08:21 Step 2: Connecting the Tools
+  10:38 Step 3: Activating the Brainstem
+  12:21 Testing our AI Agent
+  14:56 Beyond the Basics
+  
+  *RESOURCES MENTIONED*
+  OpenAI API Setup: https://platform.openai.com/
+  ChatGPT System Prompt Template: https://www.jeffsu.org/build-your-first-ai-agent-in-n8n-a-step-by-step-guide
+  Notion Command Center System: https://www.pressplay.cc/link/s/F8236D6B
+  
+  *BUILD A POWERFUL WORKFLOW*
+  🦾 AI Systems Academy - https://systemsacademy.ai/?utm_source=youtube&utm_medium=video&utm_campaign=186
+  📈 The Workspace Academy - https://academy.jeffsu.org/workspace-academy?utm_source=youtube&utm_medium=video&utm_campaign=186
+  ✍️ My Notion Command Center - https://www.pressplay.cc/link/s/DE1C4C50
+  
+  *BE MY FRIEND:*
+  📧 Subscribe to my newsletter - https://www.jeffsu.org/newsletter/?utm_source=youtube&utm_medium=video&utm_campaign=description
+  📸 Instagram - https://instagram.com/j.sushie
+  🤝 LinkedIn - https://www.linkedin.com/in/jsu05/
+  
+  *MY FAVORITE GEAR*
+  🎬 My YouTube Gear - https://www.jeffsu.org/yt-gear/
+  🎒 Everyday Carry - https://www.jeffsu.org/my-edc/
+  
+  #aiagents #ai #automation
+  ```
+  
+  ## Transcript
+  
+  If you can use catchb, you can build an AI agent. In this video, I'll show you how to build your first agent from scratch on the N8N platform in three relatively simple steps. Step one, give your agent a brain. Step two, give it access to tools like Slack, Google Sheets, and Notion. Step three, teach your agent when and how to use each tool. And that's it. It's that simple. This will be a slightly longer video, but by the end, you go from just using AI to actually building with it. Let's get started. First, a quick refresher. An AI agent needs three things to function properly. One, a brain that's made up of a chat model and memory, which I'll get into later. Two, tools like Slack, Google Sheets, and Notion, so the agent can actually do stuff. And three, a brain stem in the form of a system prompt. I apologize to any doctors watching this video, but if I remember correctly, in human anatomy, the brain stem relays information from the brain to the rest of the body. And the system prompt performs a similar function by helping the agent brain control the tools correctly. Once these three elements are in place, we can give the AI agent some sort of input. For example, by chatting with it directly or uploading a file and after receiving that input, the agent uses the tools to take action before providing some sort of output. Now, let's head on over to the NEM platform. And after signing up, you'll receive a 14-day free trial. To be clear, you can run N locally for free, but some technical setup is required. So, to keep things simple in this tutorial, I'm using N cloud, the paid web version most suited for beginners. And here's the agent we're building today. If you compare this to the diagram I shared earlier, you can see we have the OpenAI chat model and Simple Memory that make up the brain. We have a tool connected Google Sheets. And in order to find the brain stem, we click into the AI agent node and under system message. This is where we have the system prompt that controls the AI agent. So let's find out what this agent does. I'm going to first give it an input by opening chat and typing in natural language. I just subscribed to N for 20 bucks a month. And I press enter. The agent is going to process in real time. But you'll notice that, hey, the Google Sheets tool didn't turn green. What's going on, Jeff? You're terrible at this. And then we realize, oh, just like a human assistant, it's confirming the information before it does anything. It says, it seems like you're trying to add an expense, right? This is a charge date. This is the monthly cadence, and this is a cost. Do you want to confirm? I'm like, yep, looks good. And now the AI agent is going to process again in real time. And this time, we see that the Google Sheets tool has turned green. We're going to open up the corresponding Google sheet. And now we see the output of the AI agent in the form of a new row/ entry, right? Expense, charge date, cadence, cost, ed, and status. At this point, you might be like, "That's cute, but not very practical." You're 100% right. However, learning the basics enabled me to build genuinely useful AI agents that I use every day, like this one. As you can see, I can upload an image or type a message in Slack. The AI agent will extract information from the image or text message, look through my real expenses database in notion, which I can show you just to prove to you I'm not making it up, and then reply with a confirmation message after the changes have been made. None of this would have been possible had I not started with building this basic AI agent. Enough talk. Let's start building. We're going to create a new workflow here. And in this empty page, we're going to click this plus icon. And then we're going to search for chat and we're going to select the chat trigger so we can communicate or talk with the AI agent. Nothing else needs to be done here. So we can press escape or click out to exit back out. Now if I open up the chat by clicking here or down here and I type hello. Although this says the chat node has executed successfully, nothing has happened because this chat trigger is not connected to anything. Next, we can click the plus icon that's connected to the chat trigger and search for AI agent. Select the AI agent. And I know this looks very intimidating, so let's break it down. Think of it like a relay race from left to right. On the left hand side, under the input tab, you'll see what the AI agent receives. In this case, our hello message from the chat trigger. You can even see that by default the AI agent understands it needs to process our message chat input before doing anything else. Now we have two options. We can either connect the chat model memory and tool by clicking here or we can press escape or click out and click the connector here which I'll do now for the chat model. I'm going to search for OpenAI. I'm going to select the OpenAI chat model. And if this is your first time, this is a test account so you should be seeing what I'm seeing. You'll need to create a new credential. And in order to do this, we need an API key from OpenAI. You can click the docs link for step-by-step instructions, but basically you have to go to platform.opai.com, sign in or create an account if you haven't already, head on over to settings, go over to billing, use a payment method to add some credits. Uh, this is not related to your chatbt plus or pro account because API usage, as you can see, is pay as you go. Then head on over to API keys and we'll create a new secret key. I'm just going to name this YouTube v2. I'm going to select the this video project and I'm going to create a new secret key here. I'm just going to copy this. Head on back to our nan um web page. Paste it and click save. And in a few seconds, yes, the connection has tested successfully. And we can click to exit out. When it comes to model selection, I usually go with one of the latest mini models since they strike the best balance between cost and performance. I'm going to use 40 mini here, but it might be 50 mini by next month. Right, but that's it for the chat model. I'm going to click escape to exit out and very critically press command or controls to save our workflow. Now, when we say hello, we will actually receive a response because our AI agent has a chat model as a brain. But look what happens when I say, "Hey, there's a list called the e-list. Keep that in mind." The AI agent tells me, "Got it. Don't worry, I won't forget." So, let's ask, "Hey, what's that list called again?" And somehow, it's sort of like the list has never existed. Thank god something like this would never ever happen in real life. And this is why memory is so important. So let's go ahead and click the memory connector and add a simple memory. The context window length represents how many past interactions or messages the agent remembers. And I like to default to 14. So that assuming I send messages twice a day, by the end of the week on a Sunday, it will still remember what I said on Monday. And now I'm going to press escape, exit the workflow. Press command or controls S to save this workflow. All right, let's now clear the execution and clear the chat log and repeat the exercise. Hey, there's a list called the e-list. Keep that in mind. Enter. And the agent will tell me, cool, it's going to remember the e-list. Awesome. Hey, what's that list called again? And now, thanks to its memory, the AI agent remembers it's called the E-List. Excellent. To close the loop here, let's click back into our AI agent node. And under the input tab on the left, we see the latest output from our chat node. Hey, what's that list called again? The AI agent processed the chat input, as you can see right here. And on the right, we see the latest output. The list you mentioned is called the e-list. Speaking of forgetting important things, I never have to rely on my brain to remember everything thanks to this command center in Notion that basically runs my entire existence. It captures every idea, plans out my day, and keeps track of all aspects of my life. If you like to join over 5,500 students who are already using my exact system, check the link in the description. Now, before clicking the tools connector, we're going to type sheets new in our browser to create a new Google sheet. We're going to rename this Google sheet to subscription tracker. And we're going to add these columns, expense, charge date, cadence, cost, and status. We can bold these if we want. I'm going to rename this tab to tracker. And we're going to just keep this window open. Back in nan, we're going to click the tool connector here. We're going to search for Google Sheets. We're going to select Google Sheets tool. And just like with a chat model, if this is your first time, we're going to need to create a new credential that connects our Google account with nan. The process is a lot simpler for Google Sheets. We can just click sign into Google. Choose our Google account over here. And we're going to select all to give access. And we're going to select continue. And you'll see that the connection is successful. For the tool description, keep it as set automatically. We will teach the AI how to use this tool later with our system prompt. So we don't need separate instructions here. Now let's configure what this tool actually does. For resource, we keep this as is sheet within document. For operation, we're going to change this to append row since we need to add new entries, add new rows to our Google sheet, right? And for document, we can choose by URL. We're going to head back to our Google sheet, copy the URL here, and paste the URL in this field. Pro tip, we can click the expand icon here to double check we're in the right file. Under the sheet field from list, we're going to select the tracker tab. And although we want to map the columns manually to ensure accuracy, we want the values of those columns to be determined by AI. So, here's the fun part. We can click the sparkle icon for each one of these column values. And we see that now the inputs are all defined automatically by the AI model. Last but not least, we're going to click the title of this tool and rename this tool to add entry. Enter. And press escape to exit back out. Command or control S to save the workflow. Now let's go back to our initial diagram. We have a brain chat model and memory. We have access to a tool Google Sheets. And all we need to do now is to activate the brain stem via a system prompt so that the brain can send instructions to the tool. At this point, it should be clear why we left this step until last. Right? Without knowing the name of the tool, we wouldn't have been able to instruct the brain to use the add entry tool. Writing the system prompt is actually the easiest part of this tutorial. First, we're going to take a screenshot of this workflow like so. Then we're going to download this entire workflow as a JSON file by clicking the three dots here, download. Then we're going to head on over to chatbt. Select the latest reasoning model. We're going to paste the screenshot we just took. We're going to upload the JSON file. And then we're going to input this prompt. Your task is to output a clear, precise, and comprehensive system message for my AI agent designed to keep track of my subscriptions. The AI agent is connected to a Google sheet and has access to the ad entry tool. I'm not going to read the whole thing. I'll link this in the video description below. After thinking for a bit, it's going to spit out an entire system prompt for us. So, we're going to copy this entire thing like so. Head back into N. Click into the AI agent. Scroll down to here under options. And I'm going to add option system message. I'm going to click expression so I can expand this to full screen. I'm going to replace the default message with what ChachiPT gave us. And just for the sake of this tutorial, I'm going to exit out and run this as is without making any adjustments to the system prompt. Now, to test our AI agent, I cleared the previous execution and chat logs. And I'm just going to type I just subscribed to iCloud for $10 a month. Enter. And let's see what happens. I don't know if this is going to work, and you'll see why in a little bit. All right. So this first execution failed and succeeded at the same time. Why? Because it added the entry without confirming with me. And if I open the spreadsheet, the date is completely wrong. We're now in 2023. So clearly something is wrong with the system prompt and we need to fix it. Two ways we can troubleshoot this. One, we could take a screenshot, upload the screenshot in the chatbt and ask to troubleshoot. Or this is way more fun. We can click into the AI agent, expand the system prompt, find the part of instructions that control the conversation flow part between the AI agent and the user, right? And instead of saying, oh, if anything is missing or ambiguous, ask exactly one concise follow-up question, I can literally say always follow up with a confirmation message even if the information is complete. So that's number one, right? Number two, we need to fix the date. So if I look for the date part, you can either press command or control F to look for the date part or I just see right here charge date, ISO format, year, month, date. But this is hard-coded. We want a dynamic variable, right? Whenever the date of the message, the date in which the message was sent, we want that to be the charge date. So what can we do? On the left hand side, we see that hey, we have a chat input variable here. I just subscribed to iCloud. I wonder if there's a time stamp. We can actually click open the variables and context and we see there is a timestamp right here. I wonder if I could oh I can I can drag this dynamic date variable right here so that the AI agent understands the date should always depend on when the message was sent. I'm going to now exit out and press command and control S to save this workflow. Now let's clear the execution and reset the chat logs and try again. I just subscribed to iCloud for $20 US a month. We're going to press enter. And this time, yes, it's confirming with us. iCloud, $20 monthly starting today. Add the tracker. Please confirm. See, as you can see, the tool did not run, right? Yep. Go for it. This time, the tool should run and the entry should be added. Yep, there we go. To our spreadsheet. And we open up the spreadsheet. Boom. iCloud today's date monthly cadence cost active. At this point, the AI agent has been created. But let's go through a quick thought experiment. If you had a human assistant helping you maintain this subscription tracker spreadsheet, you probably want them to check for existing entries to avoid duplications, right? If there were an existing iCloud entry, you probably want them to tell you that. So, how might we edit this workflow to reflect that? Step one, we'd want to add another tool, Google sheet. And for this tool, we want the tool to read the existing rows first. So the operation here should be to get row so that the AI agent looks through all the rows first. I won't implement these steps because the video is long enough, but the important part is the logic. Step two, going back into the add entry tool. Instead of the operation being append or add a new row, we want it to be append or update row, right? So when iCloud goes from $10 or $20 to like $50, $100, I wouldn't put it past Apple. The AI agent could update the values in that row. Step three, the most important step, we'd have to go back into the AI agent node and update the system message to reflect that updated workflow. Hey, before making any changes or adding any rows, go through the existing entries first. I highly recommend you try making those changes yourself. And if you get stuck, take a screenshot, download the JSON file, upload those into Chat GPT and ask Chat GPT to help you troubleshoot. Final thought I want to leave you with. I know it's tempting to rely on pre-built AI tools like ChatG agents, but that's like trusting a black box with your most critical tasks. It might be hallucinating. It might be leaking private data. And you never know. So, understanding how AI agents work, learning the building blocks is like understanding basic math. It's essential even if you're not a mathematician. Besides, this is pretty fun, right? Just me? Okay. Anyways, if you enjoyed this, you might want to check out my tutorial on Google Gemini next. See you on the next video. In the meantime, have a great one.
+  
+  
+  ## Endscreen
+      
+  - [Master 85% of Google Gemini in 12 Minutes](https://www.youtube.com/watch?v=Uy6LcpyGj7w&pp=0gcJCQIBHUcdqGbM)
+  --- End Content ---
+
+AI Agents Fundamentals In 21 Minutes - YouTube
+  URL: https://www.youtube.com/watch?v=qU3fmidNbJE
+  I'm going to then show you how to create an AI agent workflow which does not require any code.
+
+  --- Content ---
+  ![Thumbnail (1920x1080)](https://i.ytimg.com/vi/qU3fmidNbJE/maxresdefault.jpg)
+  # [AI Agents Fundamentals In 21 Minutes](https://www.youtube.com/watch?v=qU3fmidNbJE)
+  
+  **Visibility**: Public
+  **Uploaded by**: [Tina Huang](http://www.youtube.com/@TinaHuang1)
+  **Uploaded at**: 2025-02-16T06:33:21-08:00
+  **Published at**: 2025-02-16T06:33:21-08:00
+  **Length**: 21:27
+  **Views**: 1464594
+  **Likes**: 49860
+  **Category**: Education
+  
+  ## Description
+  
+  ```
+  Improve your AI skills with the FREE Prompting QuickStart Guide I made in collaboration with Hubspot: https://clickhubspot.com/1gg9
+  
+  Want to get ahead in your career using AI? Join the waitlist for my AI Agent Bootcamp: https://www.lonelyoctopus.com/ai-agent-bootcamp
+  
+  🤝 Business Inquiries: https://tally.so/r/mRDV99
+  
+  🖱️Links mentioned in video
+  ========================
+  
+  A few notebooks to try out from crewAI & Autogen that are easy to follow and get started. All credit goes to these companies and Deep Learning AI. Please make a copy: 
+  
+  https://drive.google.com/file/d/1mtv-gdKV9HMsGvGIqZZ9tSdW-nXq6kEf/view?usp=sharing
+  
+  https://drive.google.com/file/d/1u9gGPqWSJ4_Pa_cLNWbUWPhSvxen3Bvx/view?usp=sharing
+  
+  https://drive.google.com/file/d/1T07WHydxBN-T-kcgi6qme-j1T94efBYf/view?usp=sharing
+  
+  https://drive.google.com/file/d/1vPWpYvcHPROMC3BOEK3alT1QFSIvgA8P/view?usp=sharing
+  
+  Resources I consulted in making this video:
+  
+  crewAI course: https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/
+  
+  Autogen course: https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns-with-autogen/
+  
+  LangGraph course: https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/
+  
+  David Ondrej n8n tutorial: https://youtu.be/XVO3zsHdvio?si=AQcMnYn8kJOogqLr
+  
+  Andrew Ng Snowflake agentic design patterns: https://youtu.be/KrRD7r7y7NY?si=tFtd6wJKB6idtfKb
+  
+  Andrew Ng Sequoia agentic design patterns: https://youtu.be/sal78ACtGTc?si=2i8Wyy57n8m6TbBK
+  
+  YC business advice: https://youtu.be/ASABxNenD_U?si=k19a310Tj3USuKNe
+  
+  🐙 Lonely Octopus: https://www.lonelyoctopus.com/
+  Check it out if you're interested in learning AI & data skill, then applying them to real freelance projects! 
+  
+  🔗Affiliates
+  ========================
+  My SQL for data science interviews course (10 full interviews):
+  https://365datascience.com/learn-sql-for-data-science-interviews/ 
+  
+  365 Data Science: 
+  https://365datascience.pxf.io/WD0za3 (link for 57% discount for their complete data science training)
+  
+  Check out StrataScratch for data science interview prep: 
+  https://stratascratch.com/?via=tina
+  
+  🎥 My filming setup 
+  ========================
+  📷 camera: https://amzn.to/3LHbi7N
+  🎤 mic: https://amzn.to/3LqoFJb
+  🔭 tripod: https://amzn.to/3DkjGHe
+  💡 lights: https://amzn.to/3LmOhqk
+  
+  ⏰Timestamps
+  ========================
+  00:00 — Intro
+  00:38 — Video overview
+  01:13 — AI agents definition
+  03:45 — Agentic design patterns
+  09:24 — Multi-agent design patterns
+  17:04 — Building a no code agent in n8n
+  19:46 — Ways to use AI agents
+  21:05 — Quiz
+  
+  📲Socials 
+  ========================
+  instagram: https://www.instagram.com/hellotinah/
+  linkedin: https://www.linkedin.com/in/tinaw-h/ 
+  discord: https://discord.gg/5mMAtprshX
+  
+  🎥Other videos you might be interested in
+  ========================
+  How I consistently study with a full time job:
+  https://www.youtube.com/watch?v=INymz5VwLmk
+  
+  How I would learn to code (if I could start over): 
+  https://www.youtube.com/watch?v=MHPGeQD8TvI&t=84s
+  
+  🐈‍⬛🐈‍⬛About me 
+  ========================
+  Hi, my name is Tina and I'm an ex-Meta data scientist turned internet person! 
+  
+  📧Contact
+  ========================
+  youtube: youtube comments are by far the best way to get a response from me! 
+  linkedin: https://www.linkedin.com/in/tinaw-h/ 
+  email for business inquiries only: hellotinah@gmail.com 
+  
+  ========================
+  Some links are affiliate links and I may receive a small portion of sales price at no cost to you. I really appreciate your support in helping improve this channel! :)
+  ```
+  
+  ## Transcript
+  
+  I learned about AI agents for you so here's the cliffnotes version to save you weeks of me learning about this there's not actually one course that just fully nicely covers everything so I did three courses wrote a bunch of papers and watch a lot of YouTube videos as well and of course actually made my own agents too my notes themselves are over 200 pages long but as per usual it is not enough just to listen to me talk about stuff so at the end of the video there is a little assessment which if you can answer these questions then congratulations you are now educated about AI agents now without further Ado let's get going a portion of this video is sponsored by HubSpot here's the outline first we're going to talk about what even are AI agents it is such a hyped up term now then we'll do a crash course on specifically multi-agent architectures it's really interesting developing field to make this actually all practical I'm going to then show you how to create an AI agent workflow which does not require any code I was honestly so shocked by how powerful and easy to use as well these workflows are then finally for those of you who are interested in getting into the field or even building your own AI agents for your businesses I will leave you with a piece of advice that when I heard it I was like holy so stay tuned for that at the end all right so let's first Define agents okay so believe it or not one of the most difficult things from this entire Deep dive into AI agents for me was just the actual definition of an AI agent probably because it's just such a new field and people are still trying to figure out what even it is and like how it works works so before watching this video if you were also confused I promise you it is not you let me walk you through this the easiest way to First Define ai agents is the given example of what is not an AI agent what is definitely not an AI agent is if you just ask an AI to do something for you otherwise known as one-hot prompting by the way if you're interested in leveling up your prompt engineering skills I did a video over here where I distilled down Google's 9-hour prompt engineering course into only 20 minutes so check it out anyways okay so what is definitely not an AI agent is if you're just asking AI to do something directly for example if you just go to chat gbt and write please write out an essay on topic X from start to finish in one go you'll still get a response and it'll still be like coherent and on topic but it'll probably also be quite vague and probably not what you were looking for on the other hand if you use an agentic workflow that will significantly improve your results and what that would look like is to break down that overarching task into different steps like first maybe writing an outline for the topic consider if you may need to do some web research then you might write your first draft consider what part of that draft may need more revision or more research revise your Draft before ultimately coming up with the essay a non- agentic workflow is just from start to finish and you're done while an agentic workflow is more a circular iterative process you think and you do research come up with an output and then you revise that and then you think and you do some more research come up with an output and you keep doing that until you get to your final result non agentic workflow straight up and down a gentic workflow circular okay so now let's add in a little bit of complexity you got your non- agentic workflow then you got your agentic workflow then you have a third level which is a truly autonomous AI agent this is when an AI can completely independently figure out the exact steps which tools to use go through that circular process of revising things by itself to finally come up with an output this is the level that we want our AI agents to become but currently as of the time of this filming at least we are not quite there yet we're still focusing on this second level of agentic workflows where there's certain agentic components to it but it's not fully autonomous yet but honestly with speeda AI is developing who knows maybe in like 2 months that's going to happen we'll see Jarvis you there that's your Serv according to anging who's kind of like the Superstar of the AI World there are four massivly accepted agentic design patterns the first and simplest pattern is called reflection where you're simply asking an AI to more carefully look through its own results for example you might ask an AI to please write the code in order to complete you know a specific task and the AI is going to Output some code but you're not going to stop there you're going to ask the AI to please now check the code carefully for correctness style and efficiency and give constructive criticism for how to improve it the AI could look over its own code and then maybe find out that it made it a mistake on line five and in which case they can actually fix that line of code and continue improving its own output you're sort of helping that ai go through that circular agentic process to improve its output a very simple extension of this is instead of you being the one to help the AI figure this out you can actually create another Ai and have the other AI prompt the original AI to go through its own code and go through the reflection process so this is called a multi-agent framework and that's something that we will talk about a little bit later in the video and it's like a really really interesting field next up is tool use by giving an AI the ability to use tools you can help the AI better break down task and execute specific parts of the task for example if you're interested in buying a new coffee machine you can ask Nai what is the best coffee maker according to reviewers now if you give your AI the ability to search the internet like a web search tool you're allowing it to add in the steps of actually searching different reviews on the internet compiling them together before summarizing its findings which you would get a much better result than if you just ask it to directly come up with an answer another powerful commonly used tool is the code execution tool this allows your AI to actually create and to build build things like build out a website or calculate things things that involve numbers and math for example you can ask the AI if I invest $100 at compound 7% interest for 12 years what do I have at the end your AI then can use this code execution tool to come up with the answer for you there are lots and lots of different tools that you can equip your AI with including object detection web generation ability to access your emails and your calendars to schedule events for you tool use is a very powerful agentic design pattern next up is planning and reasoning this is when you can give an AI a certain task that you want done and it's able to figure out what are the exact steps to accomplish these and what are the necessary tools that it needs in order to accomplish these steps for example you can ask an AI please generate an image where a girl is reading a book and her pose is the same as the boy in the image example. JPEG then please describe the new image with your voice with this agentic framework it's able to First Look at the image access a specific model to determine the pose of the boy in the image use another model to convert that specific pose to an image of a girl and another model to translate the image to text and finally a text to speech model to describe in audio what it is that the girl is doing a girl is sitting on a bed reading a book now finally we have multi-agent systems this is when instead of just having a single large language model a single AI do a certain thing you actually want to prompt different large language models to have different rules so the question you might have is like why can't you just have one Ai and just tell it to do everything right and the reason for this is that AI in this sense is actually quite similar to humans just like if you're trying to complete a project it's better to have a team of humans that all have their own specialized rules to come together to complete the project as opposed to just have like one person trying to juggle and handle everything same thing for AI there's research that shows by having this multi-agent workflow the results of the final product is generally better than just asking one AI to do all of it okay so here's a pneumonic in case you can't remember what the four agentic design patterns are just think about red turtles paint murals reflection tool use planning and multi-agents hint this will help in the little assessment at the end of this video okay so to make this all a little bit more concrete anding also showed us some tasks like some really cool tasks that were able to be accomplished by using these agentic design patterns for example like with this tool that has a agentic workflow built into it you can take an image of this soccer game and be able to identify Y and count number of players on the field you can also do stuff with video by prompting it given a video split the video into clips of 5 Seconds and find a clip where the goal is being scored display the frames associated with the goal that is pretty cool just thinking about the use cases you can do with so much video and image data that is currently untapped some other examples of a gentic systems that have produced really good results include AI powered research assistants that's able to research specific topics AI writers that can then write down these topics coders who can create software and personal assistance which I will actually show you how to build one later in the video as we see today AI agents and agentic workflows just like any other AI tool has a large component of prompt engineering it just shows that prompt engineering really is one of the highest Roi skills that you can learn today so if you're interested in leveling up your prompting skills I highly recommend that you check out this free prompt engineering Quickstar guide that I made with HubSpot it includes a step-by-step guide for creating great prompts and also tips to get better results my favorite part is that for all the examples there's a flow from bad to good to Great prompts to show how you can improve a prompt if you're able to go through this process and create great prompts you would just become so much more productive and get so much more out of AI so if you're interested do check it out at this link over here also linked in description thank you so much Hobs spa for creating this free resource with me and for sponsoring this portion of the video next up I want to do a quick crash course on multi-agent design patterns specifically this is where the 's a lot of focus and really cool breakthroughs that are happening I did a couple courses the best course that I found specifically for this topic was one by crew AI in collaboration with deep learning AI this course by crew AI gives a really good introduction to different types of multi-agent design patterns which I'm going to Now cover the first building block is a single AI agent and a single AI agent has four components it needs to have a specific task and answer what it's supposed to give you the model itself and tools that it has access to a nice little pneumonic here is tired alpaca's mix te task answers models tools for example you can have a travel planner AI agent its task is to plan a 3-day trip to Tokyo on a budget the answer that you want is a detailed itery with locations and cost as well as hotel bookings and any tickets the AI model could be anthropic CLA for example although you can switch that out for any other models that you like as well the tools that it needs include Google Maps Skyscanner for figuring out what the ti tickets are how much they cost booking.com for Logistics and your saved credit card informations so that you can actually place these bookings task answer model tools tired alpaca's mix te okay so we have our first singular unit of an agent and the simplest multi- aai agent would just be have two AI agents that work together on something each AI agent has its own programming but they're working together towards something an example of this would be a writer agent who is meant to write a blog article and an editor agent who is providing feedback for the writer even say with just two agents there's a couple interesting points here an agent can have its own task but an agent can also be working with another agent on a task while having its own task as well so there could be a lot of crisscross that's happening and for tools agents can have their own separate tools but a task can also have a tool which is really interesting you can actually program a task to have a specific tool so that an agent can only have access to it for that task and if you have more than one agent then you have a crew hence the name crew AI now when you add in additional agents there is even more complexity and it becomes really really interesting on how agents are interacting with each other I can go on for ages about all the different configurations of Agents working together and the tools that they're using but this course does give us a really nice kind of overview of the different design patterns that people have used and seem to be really helpful the first one is the sequential pattern this is the simplest when you just have one One agent do something and then it passes it on to another agent that does something else and another agent that does something else sort of like an assembly line an example it has would be AI powered document processing you can have your first agent which extracts text from scan documents that it passes on to another agent who summarizes the text then passes on to the next agent who then extracts action items and puts it into a summary and finally to a fourth agent that saves the data into a database a higher article higher AR a higher AR h two hours later higher article agent system would have a leader or manager agent that supervised multiple agents that have their own specific task these sub agents will complete their task and Report their results back to the manager agent who then compiles it all together an example of this would be writing a report for business decision-making you have your manager AI agent that receives this task and then delegates it to different sub agents sub agent one monitors and reports back market trends and it would have specialized tools for looking into these markets sub agent 2 could be monitoring internal customer sentiment so has access to the internal databases to see what kind of feedback customers are giving while sub agent 3 tracks internal metrics across the company so it's understanding how this specific product is interplaying with other products within the company now after all these agents do their job they would all report back to the manager agent who's able to combine everything together and it might actually pass this along to another agent say like a decision making agent who may aggregate different insights and professionally put it into a report and come up with a ultimate business decision next up is the hybrid system this combines different sequential and hierarchical structures together agents can collaborate top down as well as sequentially an example of this would be in autonomous vehicles at the top level you might have a AI agent that plans the overall route and traffic strategy for an autonomous vehicle then you have the sub agents that handle things like real-time Sensor Fusion collision avoidance and road condition analysis but it's not enough just to aggregate this information together and then just give it to the top level AI because you need to have a continuous feedback loop as the vehicle itself is moving and the road conditions and everything around it internally and externally is all changing as well you need to have lots of different little feedback loops between these different agents and then communicating continuously with the top level agent as well this design pattern is really common in things like robotics navigation systems and adaptive AI systems basically like in places where there's lots of moving Parts there are also parallel agent Design Systems this is when you have agents working on different work streams independently agents would be handling different parts of a task simultaneously often to speed up processing an example of this would be like AI for large scale data analysis this is a very common structure the very large analysis involves different components and agents will take chunks of that data and process them separately ultimately at the end merging everything together and finally there's asynchronous multi-agent systems this is when agents execute tax independently and at different times this is a system that's proven to handle uncertain conditions better than sequential or parallel approaches an example of this would be something like an AI powered cyber security threat detection you got agent one that's monitoring Network traffic in real time agent two that's monitoring suspicious usage patterns and agent three that's just randomly sampling and testing out different use cases when any of these agents picked up something anomalous they would flag it and then other things would happen after that this type of AC synchronous design pattern is especially helpful for anything that requires real-time monitoring or self-healing systems and finally to put them all together you can actually have these different systems and then link up these systems themselves and this is called a float this can result in really complex and interesting processing and results but the note to make here is that as you increase the complexity of these systems you're also basically increasing the amount of chaos that's within it as well since you don't actually have like Direct access to these agents right like you can provide them with feedback and there's ways of doing that but as you add on more and more complexity there's more things and more moving parts that are kind of just like interacting with each other it's actually pretty similar to how human companies work right the bigger your company becomes the more chaotic it starts becoming as well and the more emphasis you need to place on like hierarchies and different you know organization structures I don't know this for sure but if I were to bet I do think a lot of research that people do into systems like human systems and companies probably also comes into play for multi-agent AI systems too for the rest of the course they basically go through different implementations and examples for these different multi- aai agent systems so instead of going through all of these examples I'm just going to link in the description some of these notebooks where you can use code to implement these systems using crew AI but do not worry if you're not a coder where you're just not interested in coding I'm actually going to now show you a way of creating these multi- aai agent systems completely with a no code tool called n8n robot building sequence activated I'm so glad we tried out our new Android building device instead of using that old dinosaur some of you guys may have heard of make.com which people also use to make these multi- aai agent systems um but na an is actually better for doing this specifically credit here to David Andre's 40-minute tutorial which is what I follow and adapted to create my own AI assistant this is a telegram based AI assistant that's able to communicate with you and help you prioritize your task by accessing your Google calendars and it can also create calendar events for you so you can go on Telegram and talk to Inky bot which is the assistant's name and say what do I need to do today and it tells me that today is February 5th 2025 and I have to film this video and the time is from 12:00 p.m. until 400 p.m. in Hong Kong and it also asked me to list what are my other priorities for today so that it can come up with a list of tasks and prioritize it for me so I'm just telling that filming is my greatest priority and have these other things so it's able to prioritize and put in sequence my other tasks as as well as actually schedule calendar events corresponding to these specific task okay so the way that this flow works is first you have the telegram trigger so this is when I send a message to Inky bot and from there there's a switch um this is because it can take both text and voice input so if it's text input you would just directly take that information and feed it into the AI agent but if it's voice input we first get telegram to get the file send it to open AI to transcribe the file and then send the text information to the AI agent as well now the AI agent here is the interesting part remember tired alpacas make tea the task is taking the user's query asking about what needs to be done for today the answer is a prioritized to-do list as well as scheduled events into Google Calendar if needed the model we're using here is open AI GPT 40 mini but you can also change that out for whatever other model that you want as well like Claud Gemini llama deep seek whatever you like and finally it has two different tools the first tool is the get calendar events so it's able to read the Google calendar and see what events there are for the day it can also create calendar events so when the user wants to add other events into the list it can then go and actually create these events on the Google Calendar yeah and then it would be able to communicate through telegram with the user until it comes up with a list that the user is happy about they can also do things like check off the list plan ahead look at what happened in the past a lot of other things as well as you can see just the single agent the super simple work flow can already produce really cool results so think about adding other agents there other functionalities it's really really cool what you can do with this and it's totally no code which is crazy all right final section is on the opportunities for AI agents I watched a lot of YouTube videos and read a lot of Articles mostly for this section and the biggest takeaway that I got from this like assuming you want to be building something thing using AI agents something that is useful for other people you're building up a business is from this why combinator video where they say that for every SAS or software as a service company there will be a corresponding AI agent company let me just like repeat that because this is like huge guidance in terms of what to build for every software as a service company like all the software service companies that we see today there will be a corresponding AI agent version of that so if you don't know what to build or what to do right now and you want to play around with a agents just literally take a SAS company and then think about how do I make that into an AI agent company just ask chachu BT what are some top SAS companies says Adobe Microsoft Salesforce Shopify link tree canva Squarespace and on and on and on and on there are so many literally every company that is a sass unicorn you could imagine there's a vertical AI unicorn equivalent I really think that piece of advice is literal gold let me know in the comments if there's a specific AI agent that you're interested in building or an AI agent business all right we have come to the end of this video thank you so much for watching through it as promised here is a little assessment if you can answer all these questions then congratulations you can consider yourself educated on AI agents let me know in the comments what other topics whether that's like AI topics or other topics is fine as well that you want me to do a deep dive into all right thank you all so much for watching and I will see you guys in the next video where live stream
+  
+  
+  ## Endscreen
+      
+  - [Google's 9 Hour AI Prompt Engineering Course In 20 Minutes](https://www.youtube.com/watch?v=p09yRj47kNM)
+  --- End Content ---
+
+The Startup Ideas Podcast (SIP) (@startupideaspod) / Posts / X
+  URL: https://x.com/startupideaspod
+  I feed a 65-second video to an AI agent with one prompt "Break down the ... Youtube: https://www.youtube.com/watch?v=OV5eK91YY68. 4. 33. 411. 43192.

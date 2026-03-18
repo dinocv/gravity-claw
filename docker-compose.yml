@@ -1,0 +1,32 @@
+version: '3.9'
+
+services:
+  gravity-claw:
+    build: .
+    container_name: gravity-claw
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./sessions:/app/sessions
+      - ./memory.db:/app/memory.db
+      - ./outputs:/app/outputs
+      - ./skills:/app/skills
+      - ./soul.md:/app/soul.md
+      - ./MEMORY.md:/app/MEMORY.md
+      - ./SCHEDULE.md:/app/SCHEDULE.md
+      - ./.secrets.enc:/app/.secrets.enc
+    ports:
+      - "3001:3001"
+    healthcheck:
+      test: ["CMD", "node", "-e", "console.log('OK')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
