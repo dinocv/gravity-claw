@@ -182,25 +182,39 @@ export class LLM {
         //     console.log("✅ Added OpenRouter provider");
         // }
 
-        // Default if no providers
-        if (this.providers.length === 0) {
-            console.warn("⚠️ No LLM providers configured!");
-        }
+        // Check for preferred provider order from PREFERRED_PROVIDERS env var
+        const preferredOrder = process.env.PREFERRED_PROVIDERS?.split(",").map(p => p.trim().toLowerCase()) || [];
 
-        // CRITICAL: Use HuggingChat as PRIMARY if available (free, no API key)
-        // Otherwise use Groq (free tier), then OpenRouter as last resort
-        const freeProvider = this.providers.find(p => p.type === "huggingchat");
-        const groqProvider = this.providers.find(p => p.type === "groq");
+        if (preferredOrder.length > 0) {
+            // Use the first available provider from the preferred list
+            for (const wanted of preferredOrder) {
+                const found = this.providers.find(p => p.type.toLowerCase() === wanted);
+                if (found) {
+                    this.currentProviderIndex = this.providers.indexOf(found);
+                    break;
+                }
+            }
+        } else {
+            // Default if no providers
+            if (this.providers.length === 0) {
+                console.warn("⚠️ No LLM providers configured!");
+            }
 
-        if (freeProvider) {
-            this.currentProviderIndex = this.providers.indexOf(freeProvider);
-        } else if (groqProvider) {
-            this.currentProviderIndex = this.providers.indexOf(groqProvider);
-        } else if (this.providers.length > 0) {
-            // Skip OpenRouter if no credits
-            const nonOpenRouter = this.providers.find(p => p.type !== "openrouter");
-            if (nonOpenRouter) {
-                this.currentProviderIndex = this.providers.indexOf(nonOpenRouter);
+            // CRITICAL: Use Groq as PRIMARY if available (fastest free tier)
+            // Otherwise use HuggingChat, then OpenRouter as last resort
+            const groqProvider = this.providers.find(p => p.type === "groq");
+            const freeProvider = this.providers.find(p => p.type === "huggingchat");
+
+            if (groqProvider) {
+                this.currentProviderIndex = this.providers.indexOf(groqProvider);
+            } else if (freeProvider) {
+                this.currentProviderIndex = this.providers.indexOf(freeProvider);
+            } else if (this.providers.length > 0) {
+                // Skip OpenRouter if no credits
+                const nonOpenRouter = this.providers.find(p => p.type !== "openrouter");
+                if (nonOpenRouter) {
+                    this.currentProviderIndex = this.providers.indexOf(nonOpenRouter);
+                }
             }
         }
 
