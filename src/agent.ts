@@ -164,13 +164,15 @@ export class Agent {
         let iterations = 0;
         const maxIter = this.thinkingLevel === "high" ? this.maxIterations * 2 : this.maxIterations;
 
+        // Check if we should use tools based on environment
+        const useTools = process.env.DISABLE_TOOLS !== "true" && this.toolDefinitions.length > 0;
+
         for (let i = 0; i < maxIter; i++) {
             iterations = i;
-            // Skip tools for now to test free providers
             const response = await this.llm.chat({
                 systemPrompt,
                 messages,
-                tools: undefined, // Disabled tools for testing
+                tools: useTools ? this.toolDefinitions : undefined,
             });
 
             const { message, finishReason } = response;
