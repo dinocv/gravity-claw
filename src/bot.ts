@@ -153,9 +153,13 @@ export function createBot(config: Config, agent: Agent, transcriber: Transcriber
     // ── Text messages → Agent loop ─────────────────────────────────
     bot.on("message:text", async (ctx) => {
         const text = ctx.message?.text;
-        if (!text || text.startsWith("/")) return;
+        console.log(`📩 Text message received: "${text}"`);
+        if (!text || text.startsWith("/")) {
+            console.log(`📩 Skipping command or empty text`);
+            return;
+        }
 
-        console.log(`📩 Received: "${text}"`);
+        console.log(`📩 Processing text: "${text}"`);
 
         // Create a timeout to prevent indefinite hangs
         const TIMEOUT_MS = 120000; // 2 minutes max
