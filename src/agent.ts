@@ -166,10 +166,11 @@ export class Agent {
 
         for (let i = 0; i < maxIter; i++) {
             iterations = i;
+            // Skip tools for now to test free providers
             const response = await this.llm.chat({
                 systemPrompt,
                 messages,
-                tools: this.toolDefinitions.length > 0 ? this.toolDefinitions : undefined,
+                tools: undefined, // Disabled tools for testing
             });
 
             const { message, finishReason } = response;
