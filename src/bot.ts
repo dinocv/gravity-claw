@@ -213,6 +213,13 @@ export function createBot(config: Config, agent: Agent, transcriber: Transcriber
 
     // ── Voice messages → Transcribe + Echo + Agent ─────────────────
     bot.on("message:voice", async (ctx) => {
+        // Check if user is allowed
+        const userId = ctx.from?.id;
+        if (!userId || !allowedIds.has(userId)) {
+            console.log(`🔒 Voice message ignored from unauthorized user: ${userId}`);
+            return;
+        }
+
         await indicateTyping(ctx);
 
         let tmpFile: string | null = null;
