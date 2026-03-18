@@ -6,6 +6,17 @@ import fs from "node:fs";
 import path from "node:path";
 import os from "node:os";
 
+// Simple hash function for selecting different fallback messages
+function hashCode(str: string): number {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+        const char = str.charCodeAt(i);
+        hash = ((hash << 5) - hash) + char;
+        hash = hash & hash; // Convert to 32bit integer
+    }
+    return hash;
+}
+
 export function createBot(config: Config, agent: Agent, transcriber: Transcriber): Bot {
     const bot = new Bot(config.telegram.botToken);
     const allowedIds = new Set(config.telegram.allowedUserIds);
@@ -273,10 +284,19 @@ export function createBot(config: Config, agent: Agent, transcriber: Transcriber
             await indicateTyping(ctx);
             let agentResponse = await agent.run(transcript, ctx.chat.id.toString(), true);
 
-            // Fallback if no response
+            // Fallback if no response - be more engaging, not repetitive
             if (!agentResponse.text || agentResponse.text === "(no response)" || agentResponse.text.trim() === "") {
                 console.log("⚠️ No agent response - using fallback");
-                agentResponse.text = "Hey there! I'm here. Tell me more about what you were saying.";
+                // Use a more contextual fallback based on what user said
+                const fallbacks = [
+                    "I heard you! Could you tell me more about that?",
+                    "Interesting! Can you elaborate a bit?",
+                    "Got it. I'd love to learn more - what are you thinking about?",
+                    "I'm here! What's on your mind?",
+                ];
+                // Use message length to pick different fallback to avoid repetition
+                const idx = Math.abs(hashCode(transcript || "")) % fallbacks.length;
+                agentResponse.text = fallbacks[idx];
             }
 
             // Force voice response for voice messages
