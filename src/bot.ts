@@ -269,7 +269,7 @@ export function createBot(config: Config, agent: Agent, transcriber: Transcriber
             // Fallback if no response
             if (!agentResponse.text || agentResponse.text === "(no response)" || agentResponse.text.trim() === "") {
                 console.log("⚠️ No agent response - using fallback");
-                agentResponse.text = "I heard you! Let me respond to that.";
+                agentResponse.text = "Hey there! I'm here. Tell me more about what you were saying.";
             }
 
             // Force voice response for voice messages
